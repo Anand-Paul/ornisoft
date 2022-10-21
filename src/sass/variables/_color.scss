@@ -1,0 +1,39 @@
+/*=====================================
+=            Pantone		          =
+=====================================*/
+/*
+	Here there are all the colors that will be present in the Web. 
+	
+	NEVER include them colors directly in your scss files. You should create in the Colors sections 
+	all the links to those colors and include them instead
+	
+	The names are generated from http://www.color-blindness.com/color-name-hue/
+*/
+$pantone: (
+ 
+  white: #ffffff,
+  black: #000000,
+  grey: #cccccc,
+  
+);
+
+/*=====================================
+=            Colors           		 =
+=====================================*/
+$color: (
+  secondary: map-get($pantone, white),
+  tertiary: map-get($pantone, black),
+ 
+);
+
+/* border colors */
+$border: (
+  primary: map-get($pantone, white),
+  secondary: map-get($pantone, grey),
+);
+
+/* background colors */
+$background: (
+    primary: map-get($pantone, white),
+ 
+);
