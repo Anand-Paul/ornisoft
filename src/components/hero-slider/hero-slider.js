@@ -2,8 +2,6 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
 
-import Banner from "../../images/banner.png";
-
 import "./hero-slider.scss";
 
 const HeroSlider = () => {
@@ -13,7 +11,7 @@ const HeroSlider = () => {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
   };
 
@@ -34,12 +32,8 @@ const HeroSlider = () => {
                 </p>
               </div>
               <StaticImage
-                src={Banner}
+                src="../../images/banner.png"
                 alt="banner"
-                placeholder="blurred"
-                layout="fixed"
-                width={100}
-                height={100}
                 className="hero-slider__image"
               />
             </div>
@@ -56,6 +50,11 @@ const HeroSlider = () => {
                   risus sed magna.
                 </p>
               </div>
+              <StaticImage
+                src="../../images/banner.png"
+                alt="banner"
+                className="hero-slider__image"
+              />
             </div>
           </div>
           <div className="hero-slider__slide">
@@ -70,6 +69,11 @@ const HeroSlider = () => {
                   risus sed magna.
                 </p>
               </div>
+              <StaticImage
+                src="../../images/banner.png"
+                alt="banner"
+                className="hero-slider__image"
+              />
             </div>
           </div>
         </Slider>
