@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
-        threshold: 0.25,
+        threshold: 0.5,
         once: true,
         disable: false,
         selector: "[data-sal]",

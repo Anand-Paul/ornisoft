@@ -18,10 +18,18 @@ const Footer = () => {
                     <img src={logo} alt="ornisoft footer logo" />
                   </figure>
                   <div>
-                    <a href="#"> <span className="icon icon-ic-facebook-transparent pe-2"></span></a>
-                    <a href="#"><span className="icon icon-ic-instagram-transparent pe-2"></span></a>
-                    <a href="#"><span className="icon-ic-twitter-transparent pe-2"></span></a>
-                    <a href="#"> <span className="icon-ic-youtube-transparent pe-2"></span></a>
+                    <a href="/">
+                      <span className="icon icon-ic-facebook-transparent pe-2"></span>
+                    </a>
+                    <a href="/">
+                      <span className="icon icon-ic-instagram-transparent pe-2"></span>
+                    </a>
+                    <a href="/">
+                      <span className="icon-ic-twitter-transparent pe-2"></span>
+                    </a>
+                    <a href="/">
+                      <span className="icon-ic-youtube-transparent pe-2"></span>
+                    </a>
                   </div>
                 </div>
               </div>

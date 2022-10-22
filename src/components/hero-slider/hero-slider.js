@@ -12,7 +12,7 @@ const HeroSlider = () => {
     arrows: false,
     dots: true,
     autoplay: false,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1000,
   };
 
   return (
@@ -23,16 +23,16 @@ const HeroSlider = () => {
             <div className="hero-slider__content ">
               <div class="container">
                 <div class="row">
-              <div className="hero-slider__dialog ">
-                <h2 className="hero-slider__title">Product Heading Here</h2>
-                <p className="hero-slider__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                  enim aenean sed nunc, euismod in velit malesuada. Duis
-                  faucibus morbi consectetur iaculis. In dui urna placerat ut
-                  sem imperdiet ultrices urna sollicitudin. Viverra semper quam
-                  risus sed magna.
-                </p>
-                </div>
+                  <div className="hero-slider__dialog ">
+                    <h2 className="hero-slider__title">Product Heading Here</h2>
+                    <p className="hero-slider__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vitae enim aenean sed nunc, euismod in velit malesuada.
+                      Duis faucibus morbi consectetur iaculis. In dui urna
+                      placerat ut sem imperdiet ultrices urna sollicitudin.
+                      Viverra semper quam risus sed magna.
+                    </p>
+                  </div>
                 </div>
               </div>
               <StaticImage
@@ -46,16 +46,16 @@ const HeroSlider = () => {
             <div className="hero-slider__content ">
               <div class="container">
                 <div class="row">
-              <div className="hero-slider__dialog ">
-                <h2 className="hero-slider__title">Product Heading Here</h2>
-                <p className="hero-slider__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                  enim aenean sed nunc, euismod in velit malesuada. Duis
-                  faucibus morbi consectetur iaculis. In dui urna placerat ut
-                  sem imperdiet ultrices urna sollicitudin. Viverra semper quam
-                  risus sed magna.
-                </p>
-                </div>
+                  <div className="hero-slider__dialog ">
+                    <h2 className="hero-slider__title">Product Heading Here</h2>
+                    <p className="hero-slider__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vitae enim aenean sed nunc, euismod in velit malesuada.
+                      Duis faucibus morbi consectetur iaculis. In dui urna
+                      placerat ut sem imperdiet ultrices urna sollicitudin.
+                      Viverra semper quam risus sed magna.
+                    </p>
+                  </div>
                 </div>
               </div>
               <StaticImage
@@ -64,20 +64,21 @@ const HeroSlider = () => {
                 className="hero-slider__image"
               />
             </div>
-          </div> <div className="hero-slider__slide ">
+          </div>{" "}
+          <div className="hero-slider__slide ">
             <div className="hero-slider__content ">
               <div class="container">
                 <div class="row">
-              <div className="hero-slider__dialog ">
-                <h2 className="hero-slider__title">Product Heading Here</h2>
-                <p className="hero-slider__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
-                  enim aenean sed nunc, euismod in velit malesuada. Duis
-                  faucibus morbi consectetur iaculis. In dui urna placerat ut
-                  sem imperdiet ultrices urna sollicitudin. Viverra semper quam
-                  risus sed magna.
-                </p>
-                </div>
+                  <div className="hero-slider__dialog ">
+                    <h2 className="hero-slider__title">Product Heading Here</h2>
+                    <p className="hero-slider__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vitae enim aenean sed nunc, euismod in velit malesuada.
+                      Duis faucibus morbi consectetur iaculis. In dui urna
+                      placerat ut sem imperdiet ultrices urna sollicitudin.
+                      Viverra semper quam risus sed magna.
+                    </p>
+                  </div>
                 </div>
               </div>
               <StaticImage
