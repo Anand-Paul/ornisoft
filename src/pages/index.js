@@ -1,13 +1,15 @@
 import * as React from "react";
-import AboutUs from "../components/about-us/about-us";
-import Products from "../components/products/products";
 
 import Layout from "../components/layout";
+import AboutUs from "../components/about-us";
+import Solutions from "../components/solutions";
+import Products from "../components/products/products";
 
 const Home = () => {
   return (
-    <Layout>
-      <AboutUs/>
+    <Layout stickyHeader>
+      <AboutUs />
+      <Solutions />
       <Products/>
     </Layout>
   );

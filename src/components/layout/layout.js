@@ -3,19 +3,17 @@ import React from "react";
 import Header from "../header";
 import Footer from "../footer";
 import Banner from "../hero-slider";
+import Products from "../products";
+import StickyHeader from "../sticky-header";
 
 import "./../../sass/main.scss";
-import StickyHeader from "../sticky-header/sticky-header";
-import Products from "../products";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, stickyHeader = false }) => {
   return (
     <>
       <Header />
-      <StickyHeader/>
-      <Banner/>
+      {stickyHeader && <StickyHeader />}
       <main>{children}</main>
-      {/* <Products/> */}
       <Footer />
     </>
   );
