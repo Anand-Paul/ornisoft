@@ -2,6 +2,8 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
 
+import { SLIDER_DELAY } from "../../constants";
+
 import "./hero-slider.scss";
 
 const HeroSlider = () => {
@@ -11,8 +13,8 @@ const HeroSlider = () => {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
-    autoplay: false,
-    autoplaySpeed: 1000,
+    autoplay: true,
+    autoplaySpeed: SLIDER_DELAY,
   };
 
   return (
