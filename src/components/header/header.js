@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import "./header.scss";
 
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.svg";
 import emailIcon from "../../images/email.png";
 import phoneIcon from "../../images/phone.png";
 import searchIcon from "../../images/search.png";
@@ -17,7 +17,7 @@ const Header = () => {
     <header className="header py-3 bg-white">
       <div className="container d-flex align-items-center justify-content-between">
         <Link to="/">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="ornisoft logo" className="header__logo" />
         </Link>
         <div className="header__contactWrapper d-none d-xl-flex align-items-center flex-grow-1 flex-shrink-0 justify-content-end px-4 border-end">
           <div className="header__email d-flex align-items-center pe-4 border-end">
@@ -50,11 +50,10 @@ const Header = () => {
           </div>
         </div>
         <div className="header__search px-4 border-end d-none d-lg-flex align-items-center">
-          <div class="input-group flex-nowrap">
+          <div className="input-group flex-nowrap">
             <input
-              className="header__input shadow-none border-bottom"
+              className="header__input shadow-none border-bottom form-control"
               type="text"
-              class="form-control"
             />
             <span className="header__icon">
               <img src={searchIcon} alt="search icon" />
