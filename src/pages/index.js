@@ -1,11 +1,12 @@
 import * as React from "react";
+import AboutUs from "../components/about-us/about-us";
 
 import Layout from "../components/layout";
 
 const Home = () => {
   return (
     <Layout>
-      <h1>HI Team</h1>
+      <AboutUs/>
     </Layout>
   );
 };
