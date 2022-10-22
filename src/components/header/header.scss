@@ -14,11 +14,11 @@
     input {
       margin-right: 1.2rem;
       border: none;
-        border-bottom: 1px solid rgb(222, 226, 230);
+      border-radius: 0;
+      border-bottom: 1px solid rgb(222, 226, 230);
       &:focus {
         box-shadow: none;
         outline: none;
-        
       }
     }
   }
@@ -27,8 +27,8 @@
     .active {
       color: #f2916d !important;
     }
-    .nav-item{
-      border-bottom: 1px dashed rgb(222, 226, 230) ;
+    .nav-item {
+      border-bottom: 1px dashed rgb(222, 226, 230);
     }
     .navbar-toggler {
       &:focus {
@@ -36,18 +36,18 @@
       }
     }
   }
-@media screen and (min-width: 992px) {
-  &__nav{
-    .nav-item{
-      border-bottom: none;
+  @media screen and (min-width: 992px) {
+    &__nav {
+      .nav-item {
+        border-bottom: none;
+      }
     }
   }
-}
-@media screen and (max-width: 992px) {
-  &__nav{
-    &-wrapper{
-      width: 100%;
+  @media screen and (max-width: 992px) {
+    &__nav {
+      &-wrapper {
+        width: 100%;
+      }
     }
   }
-}
 }
