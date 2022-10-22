@@ -11,7 +11,7 @@ const HeroSlider = () => {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
   };
 
@@ -19,9 +19,11 @@ const HeroSlider = () => {
     <div className="relative">
       <div className="hero-slider">
         <Slider {...settings}>
-          <div className="hero-slider__slide">
-            <div className="hero-slider__content">
-              <div className="hero-slider__dialog">
+          <div className="hero-slider__slide ">
+            <div className="hero-slider__content ">
+              <div class="container">
+                <div class="row">
+              <div className="hero-slider__dialog ">
                 <h2 className="hero-slider__title">Product Heading Here</h2>
                 <p className="hero-slider__description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
@@ -30,6 +32,8 @@ const HeroSlider = () => {
                   sem imperdiet ultrices urna sollicitudin. Viverra semper quam
                   risus sed magna.
                 </p>
+                </div>
+                </div>
               </div>
               <StaticImage
                 src="../../images/banner.png"
@@ -38,9 +42,11 @@ const HeroSlider = () => {
               />
             </div>
           </div>
-          <div className="hero-slider__slide">
-            <div className="hero-slider__content">
-              <div className="hero-slider__dialog">
+          <div className="hero-slider__slide ">
+            <div className="hero-slider__content ">
+              <div class="container">
+                <div class="row">
+              <div className="hero-slider__dialog ">
                 <h2 className="hero-slider__title">Product Heading Here</h2>
                 <p className="hero-slider__description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
@@ -49,6 +55,8 @@ const HeroSlider = () => {
                   sem imperdiet ultrices urna sollicitudin. Viverra semper quam
                   risus sed magna.
                 </p>
+                </div>
+                </div>
               </div>
               <StaticImage
                 src="../../images/banner.png"
@@ -56,10 +64,11 @@ const HeroSlider = () => {
                 className="hero-slider__image"
               />
             </div>
-          </div>
-          <div className="hero-slider__slide">
-            <div className="hero-slider__content">
-              <div className="hero-slider__dialog">
+          </div> <div className="hero-slider__slide ">
+            <div className="hero-slider__content ">
+              <div class="container">
+                <div class="row">
+              <div className="hero-slider__dialog ">
                 <h2 className="hero-slider__title">Product Heading Here</h2>
                 <p className="hero-slider__description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
@@ -68,6 +77,8 @@ const HeroSlider = () => {
                   sem imperdiet ultrices urna sollicitudin. Viverra semper quam
                   risus sed magna.
                 </p>
+                </div>
+                </div>
               </div>
               <StaticImage
                 src="../../images/banner.png"

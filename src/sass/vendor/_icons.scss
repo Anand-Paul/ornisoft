@@ -1,56 +1,82 @@
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?1b34y1');
-    src:  url('../fonts/icomoon.eot?1b34y1#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?1b34y1') format('truetype'),
-      url('../fonts/icomoon.woff?1b34y1') format('woff'),
-      url('../fonts/icomoon.svg?1b34y1#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-logo--facebook:before {
-    content: "\e900";
-    color: #fff;
-  }
-  .icon-logo--instagram:before {
-    content: "\e901";
-    color: #fff;
-  }
-  .icon-logo--twitter:before {
-    content: "\e902";
-    color: #fff;
-  }
-  .icon-logo--youtube:before {
-    content: "\e903";
-    color: #fff;
-  }
-  .icon-logo-mail:before {
-    content: "\e904";
-    color: #f2916d;
-  }
-  .icon-logo-phone:before {
-    content: "\e905";
-    color: #f2916d;
-  }
-  .icon-logo-location:before {
-    content: "\e906";
-    color: #f2916d;
-  }
-  
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?qbd4rv');
+  src:  url('../fonts/icomoon.eot?qbd4rv#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?qbd4rv') format('truetype'),
+    url('../fonts/icomoon.woff?qbd4rv') format('woff'),
+    url('../fonts/icomoon.svg?qbd4rv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location-1-2:before {
+  content: "\e900";
+  color: #f2916d;
+}
+.icon-Vector-8:before {
+  content: "\e901";
+  color: #f2916d;
+}
+.icon-Vector-7:before {
+  content: "\e902";
+  color: #f2916d;
+}
+.icon-ic-youtube-transparent:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-ic-twitter-transparent:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-ic-facebook-transparent:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-ic-instagram-transparent:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-ic-next-arrow:before {
+  content: "\e907";
+  color: #f2916d;
+}
+.icon-ic-youtube:before {
+  content: "\e908";
+  color: #f2916d;
+}
+.icon-ic-twitter:before {
+  content: "\e909";
+  color: #f2916d;
+}
+.icon-ic-fb:before {
+  content: "\e90a";
+  color: #f2916d;
+}
+.icon-ic-search:before {
+  content: "\e90b";
+}
+.icon-ic-mail:before {
+  content: "\e90c";
+  color: #f2916d;
+}
+.icon-ic-phone:before {
+  content: "\e90d";
+  color: #f2916d;
+}

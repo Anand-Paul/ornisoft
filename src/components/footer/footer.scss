@@ -19,6 +19,9 @@
       border-right: 1px solid #DFDFDF;
       // margin-right: 152px;
       text-align: center;
+      @media (max-width: 992px) {
+        border-right: none;
+      }
     }
 
     &-list {

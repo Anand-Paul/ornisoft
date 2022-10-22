@@ -6,6 +6,7 @@ import Banner from "../hero-slider";
 
 import "./../../sass/main.scss";
 import StickyHeader from "../sticky-header/sticky-header";
+import Products from "../products";
 
 const Layout = ({ children }) => {
   return (
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
       <StickyHeader/>
       <Banner/>
       <main>{children}</main>
+      {/* <Products/> */}
       <Footer />
     </>
   );

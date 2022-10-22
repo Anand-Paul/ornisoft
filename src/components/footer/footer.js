@@ -15,10 +15,10 @@ const Footer = () => {
                     <img src={logo} alt="LOGO" />
                   </figure>
                   <div>
-                    <a href="#"> <span className="icon icon-logo--facebook pe-2"></span></a>
-                    <a href="#"><span className="icon icon-logo--instagram pe-2"></span></a>
-                    <a href="#"><span className="icon icon-logo--twitter pe-2"></span></a>
-                    <a href="#"> <span className="icon-logo--youtube pe-2"></span></a>
+                    <a href="#"> <span className="icon icon-ic-facebook-transparent pe-2"></span></a>
+                    <a href="#"><span className="icon icon-ic-instagram-transparent pe-2"></span></a>
+                    <a href="#"><span className="icon-ic-twitter-transparent pe-2"></span></a>
+                    <a href="#"> <span className="icon-ic-youtube-transparent pe-2"></span></a>
                   </div>
                 </div>
               </div>
@@ -52,12 +52,12 @@ const Footer = () => {
                   <h4 class="footer__widget-title">GET IN TOUCH</h4>
                   <ul class="footer__widget-list">
                     <li class="footer__widget-items">
-                      <span className="icon icon-logo-mail pe-3"></span>
+                      <span className="icon-ic-mail pe-3"></span>
 
                       <a href="#">testemail@gmail.com</a>
                     </li>
                     <li class="footer__widget-items">
-                      <span className="icon icon-logo-phone pe-3"></span>
+                      <span className="  icon-location-1-2 pe-3"></span>
 
                       <a href="#">AMRA 60, Automobile Road
                         Palarivattom,
@@ -65,7 +65,7 @@ const Footer = () => {
                     </li>
 
                     <li class="footer__widget-items">
-                      <span className="icon icon-logo-location pe-3"></span>
+                      <span className="icon-ic-phone pe-3"></span>
 
                       <a href="#">+91 8899887765</a>
                     </li>
