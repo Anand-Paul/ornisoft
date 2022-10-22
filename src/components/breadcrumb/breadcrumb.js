@@ -13,13 +13,17 @@ const Breadcrumb = (props) => {
           {data?.map((item, index) => {
             if (data?.length === index + 1) {
               return (
-                <li className="breadcrumb-item active" aria-current="page">
+                <li
+                  className="breadcrumb-item active"
+                  aria-current="page"
+                  key={item.name + index}
+                >
                   {item?.name}
                 </li>
               );
             }
             return (
-              <li className="breadcrumb-item">
+              <li className="breadcrumb-item" key={item.name + index}>
                 <Link to={item?.link}>{item?.name}</Link>
               </li>
             );

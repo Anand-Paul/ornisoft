@@ -76,7 +76,7 @@ const Footer = () => {
                     </li>
                     <li className="footer__widget-items">
                       <span className="icon icon-logo-location pe-3"></span>
-                      <Link to="tel:+918899887765">+91 8899887765</Link>
+                      <a href="tel:+918899887765">+91 8899887765</a>
                     </li>
                   </ul>
                 </div>

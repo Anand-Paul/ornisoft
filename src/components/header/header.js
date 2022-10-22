@@ -40,12 +40,12 @@ const Header = () => {
             </div>
             <div className="phoneContactWrapper">
               <div className="header__title fs-6 fw-bold">Contact</div>
-              <Link
-                to="tel:+9188998877655"
+              <a
+                href="tel:+9188998877655"
                 className="header__link text-decoration-none"
               >
                 +91 8899887765
-              </Link>
+              </a>
             </div>
           </div>
         </div>
