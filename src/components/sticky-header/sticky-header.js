@@ -23,9 +23,8 @@ const StickyHeader = () => {
           <div className="header__search ps-4 d-flex d-lg-none align-items-center">
             <div className="input-group flex-nowrap">
               <input
-                className="header__input shadow-none border-bottom"
+                className="header__input shadow-none border-bottom form-control"
                 type="text"
-                className="form-control"
               />
               <span className="header__icon">
                 <img src={searchIcon} alt="search icon" />
@@ -33,7 +32,6 @@ const StickyHeader = () => {
             </div>
           </div>
         </div>
-
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav w-100 justify-content-center my-4 my-lg-0">
             <li className="nav-item me-lg-3">
