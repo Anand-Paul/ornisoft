@@ -27,7 +27,7 @@
   &__inner {
     display: flex;
     flex-direction: column;
-    padding: 52px 110px 92px 43px;
+    padding: 52px 110px 76px 43px;
     position: relative;
     overflow: hidden;
     border-radius: 24px;
@@ -45,8 +45,20 @@
   }
 
   &__title {
+    font-family: "Poppins";
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #38375c;
+    text-transform: capitalize;
   }
+
   p {
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #333;
   }
   @media screen and (max-width: 992px) {
     &__content {

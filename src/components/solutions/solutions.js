@@ -27,17 +27,17 @@ const Solutions = () => {
             </p>
           </div>
           <Solution
-            title="FORECASTING"
+            title="Forecasting"
             desc="Forecasting takes up an indispensable role in data analytics these days as it is an important aid to effective and efficient planning. Ornisoft offers a variety of forecasting models for our clients on the basis of their businesses’ past trends and existing conditions and parameters. Whether the forecasts are required several years in advance or a few minutes beforehand and whatever be the circumstance or time constraints, we have got it all covered."
             img={forecasting}
           />
           <Solution
-            title="DATA MINING"
+            title="Data Mining"
             desc="In every second, your business generates large quantities of data that can influence and optimise decision making. Our Data Mining software will look for patterns in large batches of data, and help businesses learn more about their customers so that they can develop more effective marketing strategies, increase sales and decrease costs."
             img={mining}
           />
           <Solution
-            title="CONSULTANCY"
+            title="Consulting"
             desc="At Ornisoft, we promise you end-to-end software consulting and training solutions. Right from the conception of the software, to planning, to implementing, we take care of everything. Taking into consideration the specifics of your company, we offer individualised solutions that meet your requirements the most."
             img={consultancy}
           />
