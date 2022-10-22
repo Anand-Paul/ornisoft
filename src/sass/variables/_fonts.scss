@@ -1,0 +1,46 @@
+@import "./utilities";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap");
+
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+}
+/*==================================
+=            Typography            =
+==================================*/
+/**
+	Define here all the typographies and sizes of the web fonts. We can use HTML tags directly or conceptual terms like title, lead...
+**/
+$font-family-basic: (
+  Barlow: (
+    "Barlow",
+  ),
+  Poppins: (
+    "Poppins",
+  ),
+  icomoon: (
+    "icomoon",
+  ),
+);
+
+$font-family: (
+  default: map-get($font-family-basic, Barlow),
+  Primary: map-get($font-family-basic, Poppins),
+  icon: map-get($font-family-basic, icomoon),
+);
+
+$font-size: (
+  html: 16px,
+  sm: 14px,
+  extra-sm: 12px,
+  body: rem-calc(18),
+  h1-font-size: rem-calc(98),
+  h2-font-size: rem-calc(48),
+  h3-font-size: rem-calc(36),
+  h4-font-size: rem-calc(30),
+  h5-font-size: rem-calc(24),
+  h6-font-size: rem-calc(20),
+  section-title: rem-calc(34),
+  icon: rem-calc(24),
+  icon-lg: rem-calc(32),
+  icon-xl: rem-calc(44),
+);

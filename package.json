@@ -1,6 +1,6 @@
 {
   "name": "ornisoft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "ornisoft",
   "keywords": [
@@ -14,14 +14,20 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
     "gatsby": "^4.24.4",
     "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-sass": "^5.24.0",
+    "gatsby-plugin-scroll-reveal": "^0.0.7",
     "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
+    "jquery": "^3.6.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-slick": "^0.29.0",
     "sass": "^1.55.0"
   }
 }
