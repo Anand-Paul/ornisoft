@@ -2,7 +2,6 @@ import React from "react";
 
 import Solution from "../solution";
 
-import { ANIM_DELAY } from "../../constants";
 import forecasting from "./../../images/sol-forecasting.jpg";
 import mining from "./../../images/sol-data-mining.jpg";
 import consultancy from "./../../images/sol-consultancy.jpg";
