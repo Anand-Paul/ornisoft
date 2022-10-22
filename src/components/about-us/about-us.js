@@ -6,6 +6,8 @@ import frameLeft from "../../images/Frame-left.png";
 import frameRight from "../../images/Frame-right.png";
 import aboutImage from "../../images/aboutImage.png";
 
+import { ANIM_DELAY } from "../../constants";
+
 const AboutUs = () => {
   return (
     <div className="about" id="about">
@@ -20,14 +22,24 @@ const AboutUs = () => {
         alt="Right asset"
       />
       <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
-        <figure className="about__figure mb-3 mb-sm-5 mb-lg-0 flex-shrink-0 flex-grow-0">
+        <figure
+          className="about__figure mb-3 mb-sm-5 mb-lg-0 flex-shrink-0 flex-grow-0"
+          data-sal="zoom-in"
+          data-sal-delay={ANIM_DELAY}
+          data-sal-easing="ease-in-out"
+        >
           <img
             className="w-100 h-100 about__img"
             src={aboutImage}
             alt="about"
           />
         </figure>
-        <div className="about__content">
+        <div
+          className="about__content"
+          data-sal="zoom-in"
+          data-sal-delay={ANIM_DELAY}
+          data-sal-easing="ease-in-out"
+        >
           <h2 className="about__overtitle mb-0">ABOUT US</h2>
           <h3 className="about__title">OrniSoft, we are</h3>
           <div className="about__desc">
