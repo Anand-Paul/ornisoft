@@ -51,6 +51,9 @@ const Footer = () => {
                     <li className="footer__widget-items">
                       <Link to="/product-zerp">ZERP</Link>
                     </li>
+                    <li className="footer__widget-items">
+                      <Link to="/product-libman">LibMan</Link>
+                    </li>
                   </ul>
                 </div>
               </div>
