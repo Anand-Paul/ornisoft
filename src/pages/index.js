@@ -1,12 +1,12 @@
 import * as React from "react";
-import AboutUs from "../components/about-us/about-us";
 
 import Layout from "../components/layout";
+import AboutUs from "../components/about-us";
 
 const Home = () => {
   return (
-    <Layout>
-      <AboutUs/>
+    <Layout stickyHeader>
+      <AboutUs />
     </Layout>
   );
 };

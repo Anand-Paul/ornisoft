@@ -8,16 +8,23 @@ import aboutImage from "../../images/aboutImage.png";
 
 const AboutUs = () => {
   return (
-    <div className="about">
-        <img className="about__shapes about__shapes_left" src={frameLeft} alt="Left asset"/>
-        <img className="about__shapes about__shapes_right" src={frameRight} alt="Left asset"/>
-        
+    <div className="about" id="about">
+      <img
+        className="about__shapes about__shapes_left"
+        src={frameLeft}
+        alt="Left asset"
+      />
+      <img
+        className="about__shapes about__shapes_right"
+        src={frameRight}
+        alt="Right asset"
+      />
       <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
         <figure className="about__figure mb-3 mb-sm-5 mb-lg-0 flex-shrink-0 flex-grow-0">
           <img
             className="w-100 h-100 about__img"
             src={aboutImage}
-            alt="about Image"
+            alt="about"
           />
         </figure>
         <div className="about__content">

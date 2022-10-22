@@ -2,15 +2,15 @@ import React from "react";
 
 import Header from "../header";
 import Footer from "../footer";
+import StickyHeader from "../sticky-header";
 
 import "./../../sass/main.scss";
-import StickyHeader from "../sticky-header/sticky-header";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, stickyHeader = false }) => {
   return (
     <>
       <Header />
-      <StickyHeader/>
+      {stickyHeader && <StickyHeader />}
       <main>{children}</main>
       <Footer />
     </>
