@@ -2,6 +2,7 @@ import * as React from "react";
 
 import Layout from "../components/layout";
 import Breadcrumb from "../components/breadcrumb";
+import ZCoder from "../container/zcoder";
 
 const ProductZCODER = () => {
   const breadcrumbData = [
@@ -19,6 +20,7 @@ const ProductZCODER = () => {
   return (
     <Layout>
       <Breadcrumb data={breadcrumbData} />
+      <ZCoder />
     </Layout>
   );
 };

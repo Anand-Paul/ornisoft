@@ -2,6 +2,7 @@ import * as React from "react";
 
 import Layout from "../components/layout";
 import Breadcrumb from "../components/breadcrumb";
+import DBAnalyzer from "../container/db-analyzer";
 
 const ProductDBAnalyzer = () => {
   const breadcrumbData = [
@@ -19,6 +20,7 @@ const ProductDBAnalyzer = () => {
   return (
     <Layout>
       <Breadcrumb data={breadcrumbData} />
+      <DBAnalyzer />
     </Layout>
   );
 };

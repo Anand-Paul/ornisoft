@@ -3,6 +3,8 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Breadcrumb from "../components/breadcrumb";
 
+import Jit from "../container/jit";
+
 const ProductJit = () => {
   const breadcrumbData = [
     {
@@ -19,6 +21,7 @@ const ProductJit = () => {
   return (
     <Layout>
       <Breadcrumb data={breadcrumbData} />
+      <Jit />
     </Layout>
   );
 };
