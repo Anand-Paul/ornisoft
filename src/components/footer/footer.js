@@ -64,18 +64,19 @@ const Footer = () => {
                   <h4 className="footer__widget-title">GET IN TOUCH</h4>
                   <ul className="footer__widget-list">
                     <li className="footer__widget-items">
-                      <span className="icon icon-logo-mail pe-3"></span>
+                      <span className="icon  icon-Vector-7
+ pe-3"></span>
                       <Link to="mailto:testemail@gmail.com">
                         testemail@gmail.com
                       </Link>
                     </li>
                     <li className="footer__widget-items">
-                      <span className="icon icon-logo-phone pe-3"></span>
+                      <span className="icon-location-1-2 pe-3"></span>
                       AMRA 60, Automobile Road Palarivattom, Kochi, Kerala,
                       India 682025
                     </li>
                     <li className="footer__widget-items">
-                      <span className="icon icon-logo-location pe-3"></span>
+                      <span className="icon icon-Vector-8 pe-3"></span>
                       <a href="tel:+918899887765">+91 8899887765</a>
                     </li>
                   </ul>
