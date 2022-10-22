@@ -12,12 +12,7 @@ const Solutions = () => {
   return (
     <div className="solutions" id="solutions">
       <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
-        <div
-          className="solutions__content"
-          data-sal="zoom-in"
-          data-sal-delay={ANIM_DELAY}
-          data-sal-easing="ease-in-out"
-        >
+        <div className="solutions__content">
           <h2 className="solutions__overtitle mb-0">Solution</h2>
           <h3 className="solutions__title">Our Solutions</h3>
           <div className="solutions__desc">
