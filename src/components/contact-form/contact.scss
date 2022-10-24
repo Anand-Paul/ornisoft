@@ -1,0 +1,38 @@
+.contact{
+    padding: 100px 0 80px 0;
+    &__title{
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: #38375C;
+    }
+    &__label{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+    &__form{
+        max-width: 610px;
+    }
+    input, textarea{
+        border-radius: 0;
+        border: 1px solid #000000;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+    &__submit{
+        padding: 12px 40px;
+        background: #F49422;
+        &:hover{
+            background: rgb(33, 37, 41);
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        padding: 15px 0 40px;
+    }
+}
