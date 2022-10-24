@@ -4,7 +4,7 @@ import "./contact.scss";
 
 const ContactForm = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="container">
         <h2 className="contact__title text-center mb-1 mb-md-4">Contact Us</h2>
         <form className="contact__form m-auto">
