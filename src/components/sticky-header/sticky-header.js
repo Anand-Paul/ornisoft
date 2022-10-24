@@ -2,8 +2,6 @@ import React from "react";
 
 import "./sticky-header.scss";
 
-import searchIcon from "../../images/search.png";
-
 const StickyHeader = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light header__nav sticky-top">
@@ -21,13 +19,13 @@ const StickyHeader = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="header__search ps-4 d-flex d-lg-none align-items-center">
-            <div className="input-group flex-nowrap">
+            <div className="input-group flex-nowrap align-items-center">
               <input
                 className="header__input shadow-none border-bottom form-control"
                 type="text"
               />
               <span className="header__icon">
-                <img src={searchIcon} alt="search icon" />
+              <span className="icon-ic-search fs-4"></span>
               </span>
             </div>
           </div>
