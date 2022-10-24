@@ -5,6 +5,7 @@ import HeroSlider from "../components/hero-slider";
 import AboutUs from "../components/about-us";
 import Solutions from "../components/solutions";
 import Products from "../components/products";
+import ContactForm from "../components/contact-form";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutUs />
       <Solutions />
       <Products />
+      <ContactForm />
     </Layout>
   );
 };
