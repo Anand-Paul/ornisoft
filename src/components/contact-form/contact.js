@@ -1,10 +1,13 @@
 import React from "react";
+import { ANIM_DELAY } from "../../constants";
 
 import "./contact.scss";
 
 const ContactForm = () => {
   return (
-    <div className="contact" id="contact">
+    <div className="contact" id="contact" data-sal="fade"
+    data-sal-delay={ANIM_DELAY}
+    data-sal-easing="ease-in-out">
       <div className="container">
         <h2 className="contact__title text-center mb-1 mb-md-4">Contact Us</h2>
         <form className="contact__form m-auto">

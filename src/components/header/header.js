@@ -42,7 +42,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="header__search px-4 border-end d-none d-lg-flex align-items-center flex-grow-1">
+        <div className="header__search px-4 border-end d-none d-lg-flex align-items-center flex-grow-0">
           <div className="input-group flex-nowrap align-items-center">
             <input
               className="header__input shadow-none border-bottom form-control"
