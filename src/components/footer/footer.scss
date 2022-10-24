@@ -28,6 +28,8 @@
     }
 
     &-items {
+      text-indent: -2rem;
+      padding-left: 2rem;
       list-style: none;
       font-family: "Poppins";
       font-style: normal;
@@ -35,7 +37,7 @@
       font-size: 14px;
       line-height: 21px;
       letter-spacing: 0.16em;
-      color: #d9dbed;
+      color: #ffffff;
       margin-bottom: 16px;
     }
 
@@ -45,7 +47,7 @@
       font-size: 16px;
       line-height: 24px;
       letter-spacing: 0.16em;
-      color: #f2916d;
+      color: #F49422;
       margin-bottom: 26px;
     }
   }
@@ -69,6 +71,7 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 21px;
+      opacity: 0.5;
       /* identical to box height */
 
       letter-spacing: 0.04em;
@@ -91,7 +94,7 @@
   }
 
   a {
-    color: #d9dbed;
+    color: #ffffff;
     text-decoration: none;
   }
 }
