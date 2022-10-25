@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import Layout from "../components/layout";
-import Breadcrumb from "../components/breadcrumb";
-import Zerp from "../container/zerp";
+import Layout from "../../components/layout";
+import Breadcrumb from "../../components/breadcrumb";
+import Zerp from "../../container/zerp";
 
 const ProductZERP = () => {
   const breadcrumbData = [
@@ -13,6 +13,11 @@ const ProductZERP = () => {
     },
     {
       id: 2,
+      name: "ZCODER",
+      link: "/product-zcoder/zcoder",
+    },
+    {
+      id: 3,
       name: "ZERP",
     },
   ];

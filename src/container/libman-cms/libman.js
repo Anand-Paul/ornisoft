@@ -5,7 +5,7 @@ import "./libman.scss";
 import frameRight from "../../images/Frame-right.png";
 import aboutImage from "../../images/aboutImage.png";
 
-const LibmanSuite = () => {
+const LibmanCMS = () => {
   return (
     <div className="product-detail">
       <img
@@ -24,41 +24,35 @@ const LibmanSuite = () => {
           </figure>
 
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
-          <h3 className="product-detail__title">LibMan</h3>
+          <h3 className="product-detail__title">LibMan-CMS</h3>
           <div className="product-detail__desc">
             <p>
-              LibMan is the OPAC and search interface for the subscribers of the
-              library that works on Android and iPhone mobiles. It automatically
-              finds all subscriptions in various libraries of the current user.
-              LibMan comes with advanced search facilities and includes voice
-              search in 60+ languages.
+              LibMan-CMS is a web-based content management system for desktops
+              to build up a library Catalogue and member database. One can
+              either enter data afresh or import from other resources and
+              databases (csv, Excel, KOHA, etc.). It caters to the
+              functionalities found in LM-Librarian, especially Book, Membership
+              and Admin maintenance. The LibMan-CMS is hosted on a cloud
+              platform and the library staff can access it using browsers
+              without the need to install any software application on their PCs
+              or Laptops.
             </p>
             <p>
-              LibMan allows its users to create his/her own virtual library by
-              adding books from different libraries. They can create personal
-              shelves and manage favourite books in the virtual library.
+              A bibliographic resource of Malayalam books is integrated into the
+              LibMan server that allows librarians to copy data from a union
+              Catalogue instead of typing all the details of a book while making
+              a Catalogue database. Union Catalogue in the server is
+              continuously updated whenever a new title is added in its
+              libraries in the network. Likewise, Metadata of books in English
+              can be imported through free or paid gateways like OCLC and
+              ISBNdb.
             </p>
             <p>
-              Subscribers of a library can request for a book, request the
-              return, etc. through the LibMan. The subscriber will be notified
-              whenever there is an activity initiated from the LibMan-Librarian
-              App related to the current user.
+              All the book , member and transaction data are open with
+              LibMan-CMS. Authorised personnel in the library are allowed free
+              downloading of that data at any time to keep it as a backup or to
+              migrate to other ILMS.
             </p>
-            <p>Some of the functionalities of the LibMan app are:</p>
-            <ul>
-              <li>Search and Retrieval (OPAC)</li>
-              <li>Search for a library</li>
-              <li>Memberships</li>
-              <li>Books in Hand</li>
-              <li>Books Requested</li>
-              <li>Requests for Books Return</li>
-              <li>Message Inbox</li>
-              <li>Upcoming Library Events</li>
-              <li>My Virtual Library</li>
-              <li>Highlighted Books</li>
-              <li>History</li>
-            </ul>
-
             <h5>
               <strong>Give it a try!</strong>
             </h5>
@@ -98,4 +92,4 @@ const LibmanSuite = () => {
   );
 };
 
-export default LibmanSuite;
+export default LibmanCMS;
