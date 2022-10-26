@@ -8,16 +8,16 @@ import "./products.scss";
 
 const Products = () => {
   return (
-    <div class="products" id="products">
-      <div class="container">
-        <div class="products__titleWrapper">
-          <h2 class="products__title">PRODUCTS</h2>
-          <h4 class="products__subTitle">Our Products</h4>
+    <div className="products" id="products">
+      <div className="container">
+        <div className="products__titleWrapper">
+          <h2 className="products__title">PRODUCTS</h2>
+          <h4 className="products__subTitle">Our Products</h4>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12 pb-5">
+        <div className="row">
+          <div className="col-md-6 col-sm-12 pb-5">
             <div
-              class="products__card"
+              className="products__card"
               data-sal="fade"
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
@@ -27,9 +27,9 @@ const Products = () => {
                 alt="banner"
                 className="products__card-image"
               />
-              <div class="products__card-content">
-                <h6 class="products__card-title">ZCODER</h6>
-                <p class="products__card-description">
+              <div className="products__card-content">
+                <h6 className="products__card-title">ZCODER</h6>
+                <p className="products__card-description">
                   ZCoder allows a programmer to generate templates for a web
                   based or mobile based application in the language he/she
                   prefer thereby significantly reducng the time taken to
@@ -38,7 +38,7 @@ const Products = () => {
                   coder confidence to even take on complicated projects that
                   were otherwise beyond his/her realm of expertise.
                 </p>
-                <Link class="products__card-link" to="/">
+                <Link className="products__card-link" to="/">
                   Learn More
                   <span className="ps-2 icon-ic-next-arrow pe-2"></span>
                 </Link>
@@ -46,9 +46,9 @@ const Products = () => {
             </div>
           </div>
 
-          <div class="col-md-6 col-sm-12 pb-5">
+          <div className="col-md-6 col-sm-12 pb-5">
             <div
-              class="products__card"
+              className="products__card"
               data-sal="fade"
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
@@ -58,9 +58,9 @@ const Products = () => {
                 alt="banner"
                 className="products__card-image"
               />
-              <div class="products__card-content">
-                <h6 class="products__card-title">FORECASTING</h6>
-                <p class="products__card-description">
+              <div className="products__card-content">
+                <h6 className="products__card-title">FORECASTING</h6>
+                <p className="products__card-description">
                   Forecasting takes up an indispensable role in data analytics
                   these days as it is an important aid to effective and
                   efficient planning. Ornisoft offers a variety of forecasting
@@ -69,7 +69,7 @@ const Products = () => {
                   forecasts are required several years in advance or a few
                   minutes beforehand and whatever be the circumstance or time
                 </p>
-                <Link class="products__card-link" to="/">
+                <Link className="products__card-link" to="/">
                   Learn More
                   <span className="ps-2 icon-ic-next-arrow pe-2"></span>
                 </Link>
@@ -77,9 +77,9 @@ const Products = () => {
             </div>
           </div>
 
-          <div class="col-md-6 col-sm-12 pb-5">
+          <div className="col-md-6 col-sm-12 pb-5">
             <div
-              class="products__card"
+              className="products__card"
               data-sal="fade"
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
@@ -89,9 +89,9 @@ const Products = () => {
                 alt="banner"
                 className="products__card-image"
               />
-              <div class="products__card-content">
-                <h6 class="products__card-title">ZCODER</h6>
-                <p class="products__card-description">
+              <div className="products__card-content">
+                <h6 className="products__card-title">ZCODER</h6>
+                <p className="products__card-description">
                   ZCoder allows a programmer to generate templates for a web
                   based or mobile based application in the language he/she
                   prefer thereby significantly reducng the time taken to
@@ -100,7 +100,7 @@ const Products = () => {
                   coder confidence to even take on complicated projects that
                   were otherwise beyond his/her realm of expertise.
                 </p>
-                <Link class="products__card-link" to="/">
+                <Link className="products__card-link" to="/">
                   Learn More
                   <span className="ps-2 icon-ic-next-arrow pe-2"></span>
                 </Link>
@@ -108,9 +108,9 @@ const Products = () => {
             </div>
           </div>
 
-          <div class="col-md-6 col-sm-12 pb-5">
+          <div className="col-md-6 col-sm-12 pb-5">
             <div
-              class="products__card"
+              className="products__card"
               data-sal="fade"
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
@@ -120,9 +120,9 @@ const Products = () => {
                 alt="banner"
                 className="products__card-image"
               />
-              <div class="products__card-content">
-                <h6 class="products__card-title">FORECASTING</h6>
-                <p class="products__card-description">
+              <div className="products__card-content">
+                <h6 className="products__card-title">FORECASTING</h6>
+                <p className="products__card-description">
                   Forecasting takes up an indispensable role in data analytics
                   these days as it is an important aid to effective and
                   efficient planning. Ornisoft offers a variety of forecasting
@@ -131,7 +131,7 @@ const Products = () => {
                   forecasts are required several years in advance or a few
                   minutes beforehand and whatever be the circumstance or time
                 </p>
-                <Link class="products__card-link" to="/">
+                <Link className="products__card-link" to="/">
                   Learn More
                   <span className="ps-2 icon-ic-next-arrow pe-2"></span>
                 </Link>

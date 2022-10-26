@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import Layout from "../components/layout";
-import Breadcrumb from "../components/breadcrumb";
-import DBAnalyzer from "../container/db-analyzer";
+import Layout from "../../components/layout";
+import Breadcrumb from "../../components/breadcrumb";
+import DBAnalyzer from "../../container/db-analyzer";
 
 const ProductDBAnalyzer = () => {
   const breadcrumbData = [
@@ -13,6 +13,11 @@ const ProductDBAnalyzer = () => {
     },
     {
       id: 2,
+      name: "ZCODER",
+      link: "/product-zcoder/zcoder",
+    },
+    {
+      id: 3,
       name: "DB Analyzer",
     },
   ];

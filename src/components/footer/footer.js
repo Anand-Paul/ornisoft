@@ -40,19 +40,24 @@ const Footer = () => {
                   <h4 className="footer__widget-title">OUR PRODUCTS</h4>
                   <ul className="footer__widget-list">
                     <li className="footer__widget-items">
-                      <Link to="/product-jit">JIT</Link>
+                      <Link to="/product-libman/libman-suite">
+                        Libman Suite
+                      </Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/product-db-analyzer">DB Analyzer</Link>
+                      <Link to="/">Games Village Pro</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/product-zcoder">ZCODER</Link>
+                      <Link to="/product-zcoder/zcoder">ZCODER</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/product-zerp">ZERP</Link>
+                      <Link to="/">iVanSales</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/product-libman">LibMan</Link>
+                      <Link to="/">RestoManage</Link>
+                    </li>
+                    <li className="footer__widget-items">
+                      <Link to="/">iSales</Link>
                     </li>
                   </ul>
                 </div>
@@ -64,11 +69,10 @@ const Footer = () => {
                   <h4 className="footer__widget-title">GET IN TOUCH</h4>
                   <ul className="footer__widget-list">
                     <li className="footer__widget-items">
-                      <span className="icon  icon-Vector-7
- pe-3"></span>
-                      <Link to="mailto:testemail@gmail.com">
+                      <span className="icon  icon-Vector-7 pe-3"></span>
+                      <a href="mailto:testemail@gmail.com">
                         testemail@gmail.com
-                      </Link>
+                      </a>
                     </li>
                     <li className="footer__widget-items">
                       <span className="icon-location-1-2 pe-3"></span>

@@ -1,6 +1,6 @@
 {
   "name": "ornisoft",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "description": "ornisoft",
   "keywords": [
@@ -16,6 +16,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",
+    "formik": "^2.2.9",
     "gatsby": "^4.24.4",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
@@ -28,6 +29,8 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-slick": "^0.29.0",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "sweetalert2": "^11.4.17",
+    "yup": "^0.32.11"
   }
 }

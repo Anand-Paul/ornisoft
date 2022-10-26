@@ -5,7 +5,7 @@ import "./libman.scss";
 import frameRight from "../../images/Frame-right.png";
 import aboutImage from "../../images/aboutImage.png";
 
-const LibmanSuite = () => {
+const LibmanLibrarian = () => {
   return (
     <div className="product-detail">
       <img
@@ -24,41 +24,43 @@ const LibmanSuite = () => {
           </figure>
 
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
-          <h3 className="product-detail__title">LibMan</h3>
+          <h3 className="product-detail__title">LibMan-Librarian</h3>
           <div className="product-detail__desc">
             <p>
-              LibMan is the OPAC and search interface for the subscribers of the
-              library that works on Android and iPhone mobiles. It automatically
-              finds all subscriptions in various libraries of the current user.
-              LibMan comes with advanced search facilities and includes voice
-              search in 60+ languages.
+              LM-Librarian is also a mobile app but for librarians to process
+              issues, returns, etc. Its activities include:
             </p>
-            <p>
-              LibMan allows its users to create his/her own virtual library by
-              adding books from different libraries. They can create personal
-              shelves and manage favourite books in the virtual library.
-            </p>
-            <p>
-              Subscribers of a library can request for a book, request the
-              return, etc. through the LibMan. The subscriber will be notified
-              whenever there is an activity initiated from the LibMan-Librarian
-              App related to the current user.
-            </p>
-            <p>Some of the functionalities of the LibMan app are:</p>
             <ul>
-              <li>Search and Retrieval (OPAC)</li>
-              <li>Search for a library</li>
-              <li>Memberships</li>
-              <li>Books in Hand</li>
-              <li>Books Requested</li>
-              <li>Requests for Books Return</li>
-              <li>Message Inbox</li>
-              <li>Upcoming Library Events</li>
-              <li>My Virtual Library</li>
-              <li>Highlighted Books</li>
-              <li>History</li>
+              <li>Admin Maintenance</li>
+              <li>Membership and Subscription Fee</li>
+              <li>Book Requests processing</li>
+              <li>Book Issue and Return processing</li>
+              <li>Overdue Books</li>
+              <li>Mail Templates and Chats</li>
+              <li>Book Maintenance</li>
+              <li>Event Maintenance</li>
+              <li>Generating Reports and Charts</li>
             </ul>
-
+            <p>
+              The LM-Librarian comes with push notifications for book requests,
+              book return requests, payments, etc.
+            </p>
+            <p>
+              Advanced reports and charts are included which can be either
+              viewed or downloaded as PDF documents. Additional features in
+              reporting are added every now and then with requests from
+              librarians.
+            </p>
+            <p>
+              Ability to use the LM-Librarian by multiple librarians/library
+              staff (authorised by the main librarian) is another major
+              functionality. LM-Librarian uses mobile phone number verification
+              to login to the system.
+            </p>
+            <p>
+              Features of the LM-Librarian are interconnected with LibMan-CMS,
+              the third module of the App.
+            </p>
             <h5>
               <strong>Give it a try!</strong>
             </h5>
@@ -98,4 +100,4 @@ const LibmanSuite = () => {
   );
 };
 
-export default LibmanSuite;
+export default LibmanLibrarian;

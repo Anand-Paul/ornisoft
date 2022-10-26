@@ -1,9 +1,9 @@
 import * as React from "react";
 
-import Layout from "../components/layout";
-import Breadcrumb from "../components/breadcrumb";
+import Layout from "../../components/layout";
+import Breadcrumb from "../../components/breadcrumb";
 
-import Libman from "../container/libman";
+import Libman from "../../container/libman";
 
 const ProductLibman = () => {
   const breadcrumbData = [
@@ -14,6 +14,11 @@ const ProductLibman = () => {
     },
     {
       id: 2,
+      name: "Libman Suite",
+      link: "/product-libman/libman-suite",
+    },
+    {
+      id: 3,
       name: "Libman",
     },
   ];
