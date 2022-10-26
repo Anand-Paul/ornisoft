@@ -70,9 +70,9 @@ const Footer = () => {
                   <ul className="footer__widget-list">
                     <li className="footer__widget-items">
                       <span className="icon  icon-Vector-7 pe-3"></span>
-                      <Link to="mailto:testemail@gmail.com">
+                      <a href="mailto:testemail@gmail.com">
                         testemail@gmail.com
-                      </Link>
+                      </a>
                     </li>
                     <li className="footer__widget-items">
                       <span className="icon-location-1-2 pe-3"></span>

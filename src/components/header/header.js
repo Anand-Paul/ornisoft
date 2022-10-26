@@ -19,12 +19,12 @@ const Header = () => {
             </div>
             <div className="header__emailContentWrapper">
               <div className="header__title fs-6 fw-bold">Email</div>
-              <Link
-                to="mailto:testemail@gmail.com"
+              <a
+                href="mailto:testemail@gmail.com"
                 className="header__link text-decoration-none"
               >
                 testemail@gmail
-              </Link>
+              </a>
             </div>
           </div>
           <div className="header__contact d-flex align-items-center ps-4">

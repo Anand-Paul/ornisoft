@@ -23,8 +23,8 @@ const HeroSlider = () => {
         <Slider {...settings}>
           <div className="hero-slider__slide ">
             <div className="hero-slider__content ">
-              <div class="container">
-                <div class="row">
+              <div className="container">
+                <div className="row">
                   <div className="hero-slider__dialog ">
                     <h2 className="hero-slider__title">Product Heading Here</h2>
                     <p className="hero-slider__description">
@@ -46,8 +46,8 @@ const HeroSlider = () => {
           </div>
           <div className="hero-slider__slide ">
             <div className="hero-slider__content ">
-              <div class="container">
-                <div class="row">
+              <div className="container">
+                <div className="row">
                   <div className="hero-slider__dialog ">
                     <h2 className="hero-slider__title">Product Heading Here</h2>
                     <p className="hero-slider__description">
@@ -66,11 +66,11 @@ const HeroSlider = () => {
                 className="hero-slider__image"
               />
             </div>
-          </div>{" "}
+          </div>
           <div className="hero-slider__slide ">
             <div className="hero-slider__content ">
-              <div class="container">
-                <div class="row">
+              <div className="container">
+                <div className="row">
                   <div className="hero-slider__dialog ">
                     <h2 className="hero-slider__title">Product Heading Here</h2>
                     <p className="hero-slider__description">
