@@ -10,11 +10,19 @@ import ContactForm from "../components/contact-form";
 const Home = () => {
   return (
     <Layout stickyHeader>
-      <HeroSlider />
-      <AboutUs />
-      <Solutions />
-      <Products />
-      <ContactForm />
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#scrollSpy"
+        data-bs-offset="0"
+        className="scrollspy"
+      >
+        
+        <HeroSlider />
+        <AboutUs />
+        <Solutions />
+        <Products />
+        <ContactForm />
+      </div>
     </Layout>
   );
 };

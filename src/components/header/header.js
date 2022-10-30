@@ -5,9 +5,10 @@ import "./header.scss";
 
 import logo from "../../images/logo.svg";
 
-const Header = () => {
+const Header = (props) => {
+ const {stickyHeader} = props
   return (
-    <header className="header py-3 bg-white">
+    <header className={`header py-3 bg-white ${!stickyHeader ? 'border-bottom' : null}`}>
       <div className="container d-flex align-items-center justify-content-between">
         <Link to="/">
           <img src={logo} alt="ornisoft logo" className="header__logo" />
@@ -42,7 +43,8 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="header__search px-4 border-end d-none d-lg-flex align-items-center flex-grow-0">
+        {/* Search is currently hided */}
+        {/* <div className="header__search px-4 border-end d-none d-lg-flex align-items-center flex-grow-0">
           <div className="input-group flex-nowrap align-items-center">
             <input
               className="header__input shadow-none border-bottom form-control"
@@ -52,7 +54,7 @@ const Header = () => {
               <span className="icon-ic-search fs-4"></span>
             </span>
           </div>
-        </div>
+        </div> */}
         <ul
           className="header__socialShare list-unstyled mb-0 d-flex align-items-center justify-content-end ps-lg-4 flex-grow
         1"
