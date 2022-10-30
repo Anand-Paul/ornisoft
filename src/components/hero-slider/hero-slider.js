@@ -18,7 +18,7 @@ const HeroSlider = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative" id="heroSlider">
       <div className="hero-slider">
         <Slider {...settings}>
           <div className="hero-slider__slide ">

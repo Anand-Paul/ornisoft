@@ -9,7 +9,7 @@ import "./../../sass/main.scss";
 const Layout = ({ children, stickyHeader = false }) => {
   return (
     <>
-      <Header />
+      <Header stickyHeader={stickyHeader}/>
       {stickyHeader && <StickyHeader />}
       <main>{children}</main>
       <Footer />
