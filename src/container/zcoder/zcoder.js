@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./zcoder.scss";
-
 import frameRight from "../../images/Frame-right.png";
 import aboutImage from "../../images/aboutImage.png";
 
@@ -14,14 +12,14 @@ const ZCoder = () => {
         alt="Right asset"
       />
       <div className="container d-flex flex-column flex-lg-row justify-content-between">
-        <figure className="product-detail__figure mb-3 mb-sm-5 mb-lg-0 flex-shrink-0 flex-grow-0">
-          <img
-            className="w-100 h-100 product-detail__img"
-            src={aboutImage}
-            alt="about"
-          />
-        </figure>
         <div className="product-detail__content">
+          <figure className="product-detail__figure mb-3 mb-sm-5 mb-lg-3 flex-shrink-0 flex-grow-0 float-start">
+            <img
+              className="w-100 h-100 product-detail__img"
+              src={aboutImage}
+              alt="about"
+            />
+          </figure>
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
           <h3 className="product-detail__title">ZCODER</h3>
           <div className="product-detail__desc">
