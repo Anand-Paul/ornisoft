@@ -40,24 +40,22 @@ const Footer = () => {
                   <h4 className="footer__widget-title">OUR PRODUCTS</h4>
                   <ul className="footer__widget-list">
                     <li className="footer__widget-items">
-                      <Link to="/product-libman/libman-suite">
-                        Libman Suite
-                      </Link>
+                      <Link to="/libman">Libman Suite</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/">Games Village Pro</Link>
+                      <Link to="/gamesvillage">GamesVillage Pro Suite</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/product-zcoder/zcoder">ZCODER</Link>
+                      <Link to="/zcoder">ZCODER</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/">iVanSales</Link>
+                      <Link to="/vansales">VanSales Pro</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/">RestoManage</Link>
+                      <Link to="/restomanage">RestoManage</Link>
                     </li>
                     <li className="footer__widget-items">
-                      <Link to="/">iSales</Link>
+                      <Link to="/isales">iSales</Link>
                     </li>
                   </ul>
                 </div>
