@@ -1,10 +1,10 @@
 import * as React from "react";
 
-import Layout from "../../components/layout";
-import Breadcrumb from "../../components/breadcrumb";
-import ZCoder from "../../container/zcoder";
+import Layout from "../components/layout";
+import Breadcrumb from "../components/breadcrumb";
+import ISales from "../container/isales";
 
-const ProductZCODER = () => {
+const ProductISales = () => {
   const breadcrumbData = [
     {
       id: 1,
@@ -13,16 +13,16 @@ const ProductZCODER = () => {
     },
     {
       id: 2,
-      name: "ZCODER",
+      name: "iSales",
     },
   ];
 
   return (
     <Layout>
       <Breadcrumb data={breadcrumbData} />
-      <ZCoder />
+      <ISales />
     </Layout>
   );
 };
 
-export default ProductZCODER;
+export default ProductISales;
