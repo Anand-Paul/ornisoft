@@ -80,9 +80,7 @@ const Footer = () => {
                   <ul className="footer__widget-list">
                     <li className="footer__widget-items">
                       <span className="icon  icon-Vector-7 pe-3"></span>
-                      <a href="mailto:testemail@gmail.com">
-                        testemail@gmail.com
-                      </a>
+                      <a href="mailto:Info@ornisoft.com">Info@ornisoft.com</a>
                     </li>
                     <li className="footer__widget-items">
                       <span className="icon-location-1-2 pe-3"></span>
@@ -92,6 +90,14 @@ const Footer = () => {
                     <li className="footer__widget-items">
                       <span className="icon icon-Vector-8 pe-3"></span>
                       <a href="tel:+918899887765">+91 8899887765</a>
+                    </li>
+                    <li className="footer__widget-items">
+                      <span className="icon-location-1-2 pe-3"></span>P O Box No
+                      115344, Dubai UAE
+                    </li>
+                    <li className="footer__widget-items">
+                      <span className="icon icon-Vector-8 pe-3"></span>
+                      <a href="tel:+971563462929">+971 56 3462929</a>
                     </li>
                   </ul>
                 </div>

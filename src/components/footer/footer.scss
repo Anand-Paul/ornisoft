@@ -1,8 +1,13 @@
 .footer {
-  background-image: linear-gradient(#f46e22, #813a59, #2e2d62);
+  background: linear-gradient(
+    100.08deg,
+    #f46e22 1.18%,
+    #813a59 37.23%,
+    #2e2d62 61.14%
+  );
 
   &__main {
-    padding: 105px 0 118px 0;
+    padding: 105px 0 84px 0;
   }
 
   &__widget {
@@ -47,7 +52,7 @@
       font-size: 16px;
       line-height: 24px;
       letter-spacing: 0.16em;
-      color: #F49422;
+      color: #f49422;
       margin-bottom: 26px;
     }
   }
