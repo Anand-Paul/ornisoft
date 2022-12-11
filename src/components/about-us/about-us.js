@@ -4,7 +4,7 @@ import "./about-us.scss";
 
 import frameLeft from "../../images/Frame-left.png";
 import frameRight from "../../images/Frame-right.png";
-import aboutImage from "../../images/aboutImage.png";
+import aboutImage from "../../images/ornisoftware.jpg";
 
 import { ANIM_DELAY } from "../../constants";
 

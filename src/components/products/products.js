@@ -23,7 +23,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/libman.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -52,7 +52,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-secondary.png"
+                src="../../images/games-village.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -79,7 +79,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-secondary.png"
+                src="../../images/zcoder.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -112,7 +112,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/vansales.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -146,7 +146,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/restomanage.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -179,7 +179,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/isales.jpg"
                 alt="banner"
                 className="products__card-image"
               />

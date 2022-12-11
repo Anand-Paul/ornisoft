@@ -39,7 +39,7 @@ const HeroSlider = () => {
                 </div>
               </div>
               <StaticImage
-                src="../../images/banner.png"
+                src="../../images/libman.jpg"
                 alt="banner"
                 className="hero-slider__image"
               />
@@ -63,7 +63,7 @@ const HeroSlider = () => {
                 </div>
               </div>
               <StaticImage
-                src="../../images/banner.png"
+                src="../../images/games-village.jpg"
                 alt="banner"
                 className="hero-slider__image"
               />
@@ -85,7 +85,7 @@ const HeroSlider = () => {
                 </div>
               </div>
               <StaticImage
-                src="../../images/banner.png"
+                src="../../images/zcoder.jpg"
                 alt="banner"
                 className="hero-slider__image"
               />
@@ -108,7 +108,7 @@ const HeroSlider = () => {
                 </div>
               </div>
               <StaticImage
-                src="../../images/banner.png"
+                src="../../images/vansales.jpg"
                 alt="banner"
                 className="hero-slider__image"
               />
