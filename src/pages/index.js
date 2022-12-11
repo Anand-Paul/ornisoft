@@ -6,6 +6,7 @@ import AboutUs from "../components/about-us";
 import Solutions from "../components/solutions";
 import Products from "../components/products";
 import ContactForm from "../components/contact-form";
+import { Seo } from "../components/seo";
 
 const Home = () => {
   return (
@@ -16,7 +17,6 @@ const Home = () => {
         data-bs-offset="0"
         className="scrollspy"
       >
-        
         <HeroSlider />
         <AboutUs />
         <Solutions />
@@ -28,3 +28,5 @@ const Home = () => {
 };
 
 export default Home;
+
+export const Head = () => <Seo />;

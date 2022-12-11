@@ -6,9 +6,13 @@ import "./header.scss";
 import logo from "../../images/logo.svg";
 
 const Header = (props) => {
- const {stickyHeader} = props
+  const { stickyHeader } = props;
   return (
-    <header className={`header py-3 bg-white ${!stickyHeader ? 'border-bottom' : null}`}>
+    <header
+      className={`header py-3 bg-white ${
+        !stickyHeader ? "border-bottom" : null
+      }`}
+    >
       <div className="container d-flex align-items-center justify-content-between">
         <Link to="/">
           <img src={logo} alt="ornisoft logo" className="header__logo" />
@@ -60,24 +64,44 @@ const Header = (props) => {
         1"
         >
           <li className="header__link header__link_insta me-3">
-            <Link to="/" className="text-decoration-none fs-4">
+            <a
+              href="https://www.instagram.com/OrniSoftIndia/"
+              className="text-decoration-none fs-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="icon-ic-instagram-transparent header__link_insta"></span>
-            </Link>
+            </a>
           </li>
           <li className="header__link header__link_fb me-3">
-            <Link to="/" className="text-decoration-none fs-4">
+            <a
+              href="https://www.facebook.com/profile.php?id=100087601533710"
+              className="text-decoration-none fs-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="icon-ic-fb"></span>
-            </Link>
+            </a>
           </li>
-          <li className="header__link header__link_twitter me-3">
-            <Link to="/" className="text-decoration-none fs-4">
+          {/* <li className="header__link header__link_twitter me-3">
+            <a
+              href="/"
+              className="text-decoration-none fs-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="icon-ic-twitter"></span>
-            </Link>
-          </li>
+            </a>
+          </li> */}
           <li className="header__link header__link_youtube">
-            <Link to="/" className="text-decoration-none fs-4">
+            <a
+              href="https://youtube.com/channel/UCyevFr4RSwjurI6AGpgGOLQ"
+              className="text-decoration-none fs-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="icon-ic-youtube"></span>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

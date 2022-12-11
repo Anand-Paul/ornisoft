@@ -3,6 +3,9 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Breadcrumb from "../components/breadcrumb";
 import Libman from "../container/libman";
+import { Seo } from "../components/seo";
+
+export const Head = () => <Seo />;
 
 const ProductLibman = () => {
   const breadcrumbData = [

@@ -1,17 +1,15 @@
 import React from "react";
+import Scrollspy from "react-scrollspy";
 
 import "./sticky-header.scss";
 
 const StickyHeader = () => {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-light bg-light header__nav sticky-top"
-      id="scrollSpy"
-    >
+    <nav className="navbar navbar-expand-lg navbar-light bg-light header__nav sticky-top">
       <div className="container">
-        <div className="d-flex align-items-center justify-content-center header__nav-wrapper">
+        <div className="d-flex align-items-center justify-content-end header__nav-wrapper">
           <button
-            className="navbar-toggler d-block d-lg-none"
+            className="navbar-toggler d-block d-lg-none border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -34,34 +32,46 @@ const StickyHeader = () => {
             </div>
           </div> */}
         </div>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav w-100 justify-content-center my-4 my-lg-0">
-            <li className="nav-item me-lg-3">
-              <a className="nav-link" aria-current="page" href="#heroSlider">
-                Home
-              </a>
-            </li>
-            <li className="nav-item me-lg-3">
-              <a className="nav-link" href="#about">
-                About Us
-              </a>
-            </li>
-            <li className="nav-item me-lg-3">
-              <a className="nav-link" href="#solutions">
-                Solutions
-              </a>
-            </li>
-            <li className="nav-item me-lg-3">
-              <a className="nav-link" href="#products">
-                Products
-              </a>
-            </li>
 
-            <li className="nav-item me-lg-3">
-              <a className="nav-link" href="#contact">
-                Contact Us
-              </a>
-            </li>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav w-100 justify-content-center my-lg-0 custom-nav">
+            <Scrollspy
+              items={[
+                "heroSlider",
+                "about",
+                "solutions",
+                "products",
+                "contact",
+              ]}
+              currentClassName="is-current"
+              offset={-150}
+            >
+              <li className="nav-item me-lg-3">
+                <a className="nav-link" aria-current="page" href="#heroSlider">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item me-lg-3">
+                <a className="nav-link" href="#about">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item me-lg-3">
+                <a className="nav-link" href="#solutions">
+                  Solutions
+                </a>
+              </li>
+              <li className="nav-item me-lg-3">
+                <a className="nav-link" href="#products">
+                  Products
+                </a>
+              </li>
+              <li className="nav-item me-lg-3 border-0 ">
+                <a className="nav-link" href="#contact">
+                  Contact Us
+                </a>
+              </li>
+            </Scrollspy>
           </ul>
         </div>
       </div>
