@@ -23,7 +23,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/libman.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -34,9 +34,7 @@ const Products = () => {
                   once his subscription is authorised by the librarian. Very
                   low-cost subscription rate to the cloud server for the library
                   is one of the major attractions of the application in addition
-                  to its amazing functionalities. Unlimited users can access and
-                  operate it simultaneously from anywhere feeling no anxiety of
-                  extra charges or hidden costs.
+                  to its amazing functionalities.
                 </p>
                 <Link className="products__card-link" to="/libman">
                   Learn More
@@ -54,7 +52,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-secondary.png"
+                src="../../images/games-village.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -81,7 +79,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-secondary.png"
+                src="../../images/zcoder.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -114,7 +112,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/vansales.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -148,7 +146,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/restomanage.jpg"
                 alt="banner"
                 className="products__card-image"
               />
@@ -181,7 +179,7 @@ const Products = () => {
               data-sal-easing="ease-in-out"
             >
               <StaticImage
-                src="../../images/card-primary.png"
+                src="../../images/isales.jpg"
                 alt="banner"
                 className="products__card-image"
               />

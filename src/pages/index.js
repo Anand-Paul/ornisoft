@@ -8,6 +8,8 @@ import Products from "../components/products";
 import ContactForm from "../components/contact-form";
 import { Seo } from "../components/seo";
 
+import ornisoftware from "../images/ornisoftware.jpg";
+
 const Home = () => {
   return (
     <Layout stickyHeader>
@@ -29,4 +31,10 @@ const Home = () => {
 
 export default Home;
 
-export const Head = () => <Seo />;
+export const Head = () => (
+  <Seo
+    title="Home"
+    description="With eight years of research, OrniSoft has come up with an un-parelled software called ZCoder. "
+    defaultImage={ornisoftware}
+  />
+);

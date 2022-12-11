@@ -1,7 +1,7 @@
 import React from "react";
 
 import frameRight from "../../images/Frame-right.png";
-import aboutImage from "../../images/aboutImage.png";
+import aboutImage from "../../images/vansales.jpg";
 
 const VanSales = () => {
   return (
