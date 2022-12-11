@@ -9,9 +9,7 @@ const Header = (props) => {
   const { stickyHeader } = props;
   return (
     <header
-      className={`header py-3 bg-white ${
-        !stickyHeader ? "border-bottom" : null
-      }`}
+      className={`header bg-white ${!stickyHeader ? "border-bottom" : null}`}
     >
       <div className="container d-flex align-items-center justify-content-between">
         <Link to="/">
@@ -25,10 +23,10 @@ const Header = (props) => {
             <div className="header__emailContentWrapper">
               <div className="header__title fs-6 fw-bold">Email</div>
               <a
-                href="mailto:testemail@gmail.com"
+                href="mailto:Info@ornisoft.com"
                 className="header__link text-decoration-none"
               >
-                testemail@gmail
+                Info@ornisoft.com
               </a>
             </div>
           </div>

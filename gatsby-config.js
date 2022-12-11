@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `ornisoft`,
+    title: `Ornisoft`,
     description: `Solving AI challenges precisely with Subject Matter Experts from our trusted network.`,
     twitterUsername: `@ornisoft`,
-    image: `./src/images/icon.png`,
     siteUrl: `http://ornisoft.com/`,
   },
   plugins: [

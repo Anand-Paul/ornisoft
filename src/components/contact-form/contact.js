@@ -5,6 +5,9 @@ import Swal from "sweetalert2";
 
 import { ANIM_DELAY } from "../../constants";
 
+import frameLeft from "../../images/contact-right.png";
+import frameRight from "../../images/contact-left.png";
+
 import "./contact.scss";
 
 const ContactForm = () => {
@@ -62,6 +65,16 @@ const ContactForm = () => {
       data-sal-easing="ease-in-out"
     >
       <div className="container">
+        <img
+          className="contact__shapes contact__shapes_left"
+          src={frameRight}
+          alt="Right asset"
+        />
+        <img
+          className="contact__shapes contact__shapes_right"
+          src={frameLeft}
+          alt="Left asset"
+        />
         <h2 className="contact__title text-center mb-1 mb-md-4">Contact Us</h2>
         <Formik
           enableReinitialize
