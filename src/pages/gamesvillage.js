@@ -3,6 +3,9 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Breadcrumb from "../components/breadcrumb";
 import GamesVillage from "../container/gamesvillage";
+import { Seo } from "../components/seo";
+
+export const Head = () => <Seo />;
 
 const ProductGamesVillage = () => {
   const breadcrumbData = [

@@ -1,44 +1,70 @@
 .header {
-    &__search {
-        min-height: 48px;
-        input {
-          margin-right: 1.2rem;
-          border: none;
-          border-radius: 0;
-            border-bottom: 1px solid rgb(222, 226, 230);
-          &:focus {
-            box-shadow: none;
-            outline: none;
-            
-          }
-        }
-      }
-      &__nav {
-        background: rgba(217, 217, 217, 0.3);
-        .active {
-          color: #F49422 !important;
-        }
-        .nav-item{
-          border-bottom: 1px dashed rgb(222, 226, 230) ;
-        }
-        .navbar-toggler {
-          &:focus {
-            box-shadow: none;
-          }
-        }
-      }
-    @media screen and (min-width: 992px) {
-      &__nav{
-        .nav-item{
-          border-bottom: none;
-        }
+  &__search {
+    min-height: 48px;
+    input {
+      margin-right: 1.2rem;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid rgb(222, 226, 230);
+      &:focus {
+        box-shadow: none;
+        outline: none;
       }
     }
-    @media screen and (max-width: 992px) {
-      &__nav{
-        &-wrapper{
-          width: 100%;
-        }
+  }
+  &__nav {
+    background: rgba(217, 217, 217, 0.3);
+    .active {
+      color: #f49422 !important;
+    }
+    .nav-item {
+      border-bottom: 1px dashed rgb(222, 226, 230);
+    }
+    .navbar-toggler {
+      &:focus {
+        box-shadow: none;
       }
     }
+  }
+  @media screen and (min-width: 992px) {
+    &__nav {
+      .nav-item {
+        border-bottom: none;
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    &__nav {
+      &-wrapper {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.custom-nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+
+    li.is-current a {
+      color: #f49422 !important;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    ul {
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .show .custom-nav {
+    ul {
+      opacity: 1;
+      flex-direction: column;
+    }
+  }
 }

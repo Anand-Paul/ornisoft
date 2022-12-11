@@ -18,16 +18,28 @@ const Footer = () => {
                     <img src={logo} alt="ornisoft footer logo" />
                   </figure>
                   <div>
-                    <a href="/">
+                    <a
+                      href="https://www.instagram.com/OrniSoftIndia/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span className="icon icon-ic-facebook-transparent pe-2"></span>
                     </a>
-                    <a href="/">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100087601533710"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span className="icon icon-ic-instagram-transparent pe-2"></span>
                     </a>
-                    <a href="/">
-                      <span className="icon-ic-twitter-transparent pe-2"></span>
-                    </a>
-                    <a href="/">
+                    {/* <a href="/" target="_blank" rel="noopener noreferrer">
+                        <span className="icon-ic-twitter-transparent pe-2"></span>
+                      </a> */}
+                    <a
+                      href="https://youtube.com/channel/UCyevFr4RSwjurI6AGpgGOLQ"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <span className="icon-ic-youtube-transparent pe-2"></span>
                     </a>
                   </div>

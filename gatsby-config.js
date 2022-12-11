@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `ornisoft`,
+    description: `Solving AI challenges precisely with Subject Matter Experts from our trusted network.`,
+    twitterUsername: `@ornisoft`,
+    image: `./src/images/icon.png`,
     siteUrl: `http://ornisoft.com/`,
   },
   plugins: [
@@ -27,17 +30,17 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-scroll-reveal`,
+      resolve: `gatsby-plugin-scroll-reveal-with-new-react`,
       options: {
-        threshold: 0.5,
-        once: true,
-        disable: false,
-        selector: "[data-sal]",
-        animateClassName: "sal-animate",
-        disabledClassName: "sal-disabled",
-        rootMargin: "0% 50%",
-        enterEventName: "sal:in",
-        exitEventName: "sal:out",
+        threshold: 0.25, // Percentage of an element's area that needs to be visible to launch animation
+        once: true, // Defines if animation needs to be launched once
+        disable: false, // Flag for disabling animations
+        selector: "[data-sal]", // Selector of the elements to be animated
+        animateClassName: "sal-animate", // Class name which triggers animation
+        disabledClassName: "sal-disabled", // Class name which defines the disabled state
+        rootMargin: "0% 50%", // Corresponds to root's bounding box margin
+        enterEventName: "sal:in", // Enter event name
+        exitEventName: "sal:out", // Exit event name
       },
     },
   ],
