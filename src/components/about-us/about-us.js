@@ -45,17 +45,17 @@ const AboutUs = () => {
           <div className="about__desc">
             <p>
               With eight years of research, OrniSoft has come up with an
-              un-parelled software called ZCoder. ZCoder is a Application
-              Development Enhancement Utility that can generate upto 90-95% of
+              un-parelled software called ZCoder. ZCoder is an Application
+              Development Enhancement Utility that can generate up to 90-95% of
               the total source code required by a database-based application.
               ZCoder can generate source code in almost all modern computer
               languages including C#, Java, PHP, Python, HTML, JavaScript etc.
               ZCoder can also use common libraries like AngularJS, BootStrap,
-              JQuery, ReactJS, etc.
+              JQuery, ReactJS etc.
             </p>
             <p>
               OrniSoft is the house of ZCoder and ZERP. We also develop
-              custom-tailored applications.
+              custom-tailored mobile applications.
             </p>
           </div>
         </div>

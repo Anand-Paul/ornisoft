@@ -34,9 +34,7 @@ const Products = () => {
                   once his subscription is authorised by the librarian. Very
                   low-cost subscription rate to the cloud server for the library
                   is one of the major attractions of the application in addition
-                  to its amazing functionalities. Unlimited users can access and
-                  operate it simultaneously from anywhere feeling no anxiety of
-                  extra charges or hidden costs.
+                  to its amazing functionalities.
                 </p>
                 <Link className="products__card-link" to="/libman">
                   Learn More

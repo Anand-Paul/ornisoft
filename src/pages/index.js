@@ -29,4 +29,9 @@ const Home = () => {
 
 export default Home;
 
-export const Head = () => <Seo />;
+export const Head = () => (
+  <Seo
+    title="Home"
+    description="With eight years of research, OrniSoft has come up with an un-parelled software called ZCoder. "
+  />
+);

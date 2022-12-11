@@ -5,8 +5,6 @@ import Breadcrumb from "../components/breadcrumb";
 import ZCoder from "../container/zcoder";
 import { Seo } from "../components/seo";
 
-export const Head = () => <Seo />;
-
 const ProductZCODER = () => {
   const breadcrumbData = [
     {
@@ -29,3 +27,10 @@ const ProductZCODER = () => {
 };
 
 export default ProductZCODER;
+
+export const Head = () => (
+  <Seo
+    title="ZCoder"
+    description="ZCoder, OrniSoft’s flagship product is an Application Development Enhancement Utility that generates 80-90% of the total source code required for a Database Application in almost all the current technologies."
+  />
+);

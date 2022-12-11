@@ -5,8 +5,6 @@ import Breadcrumb from "../components/breadcrumb";
 import VanSales from "../container/vansales";
 import { Seo } from "../components/seo";
 
-export const Head = () => <Seo />;
-
 const ProductVanSales = () => {
   const breadcrumbData = [
     {
@@ -29,3 +27,10 @@ const ProductVanSales = () => {
 };
 
 export default ProductVanSales;
+
+export const Head = () => (
+  <Seo
+    title="VanSales Pro"
+    description="VanSales Pro is a mobile based solution which can streamline sales and delivery processes in the field."
+  />
+);

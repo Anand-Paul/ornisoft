@@ -5,8 +5,6 @@ import Breadcrumb from "../components/breadcrumb";
 import RestoManage from "../container/restomanage";
 import { Seo } from "../components/seo";
 
-export const Head = () => <Seo />;
-
 const ProductRestoManage = () => {
   const breadcrumbData = [
     {
@@ -29,3 +27,10 @@ const ProductRestoManage = () => {
 };
 
 export default ProductRestoManage;
+
+export const Head = () => (
+  <Seo
+    title="RestoManage"
+    description="RestoManage is a cloud-based online food ordering and delivery system for restaurant businesses."
+  />
+);

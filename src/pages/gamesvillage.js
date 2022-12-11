@@ -5,8 +5,6 @@ import Breadcrumb from "../components/breadcrumb";
 import GamesVillage from "../container/gamesvillage";
 import { Seo } from "../components/seo";
 
-export const Head = () => <Seo />;
-
 const ProductGamesVillage = () => {
   const breadcrumbData = [
     {
@@ -29,3 +27,10 @@ const ProductGamesVillage = () => {
 };
 
 export default ProductGamesVillage;
+
+export const Head = () => (
+  <Seo
+    title="GamesVillage Pro Suite"
+    description="GamesVillage Pro Suite is a complete tournament management software which is available on both Android and IOS platforms. "
+  />
+);
