@@ -82,22 +82,27 @@ const Footer = () => {
                       <span className="icon  icon-Vector-7 pe-3"></span>
                       <a href="mailto:Info@ornisoft.com">Info@ornisoft.com</a>
                     </li>
-                    <li className="footer__widget-items">
+                    <li className="footer__widget-items footer__widget-items_border mb-3">
                       <span className="icon-location-1-2 pe-3"></span>
-                      AMRA 60, Automobile Road Palarivattom, Kochi, Kerala,
-                      India 682025
+                      OrniSoft AMRA 60, Automobile Road Palarivattom, Kochi,
+                      Kerala, India 682025
+                      <span className="footer__widget-items-phone">
+                        <a href="tel:+917306684432">+917306684432</a>
+                      </span>
                     </li>
-                    <li className="footer__widget-items">
-                      <span className="icon icon-Vector-8 pe-3"></span>
-                      <a href="tel:+918899887765">+91 8899887765</a>
+                    <li className="footer__widget-items footer__widget-items_border mb-3">
+                      <span className="icon-location-1-2 pe-3"></span>OrniSoft P
+                      O Box No 115344, Dubai UAE
+                      <span className="footer__widget-items-phone">
+                        <a href="tel:+971563462929">+971 56 3462929</a>
+                      </span>
                     </li>
-                    <li className="footer__widget-items">
-                      <span className="icon-location-1-2 pe-3"></span>P O Box No
-                      115344, Dubai UAE
-                    </li>
-                    <li className="footer__widget-items">
-                      <span className="icon icon-Vector-8 pe-3"></span>
-                      <a href="tel:+971563462929">+971 56 3462929</a>
+                    <li className="footer__widget-items ">
+                      <span className="icon-location-1-2 pe-3"></span>OrniSoft
+                      P.O.Box : 320 Postal Code 271 Muscat Oman
+                      <span className="footer__widget-items-phone">
+                        <a href="tel:+96893774669">+96893774669</a>
+                      </span>
                     </li>
                   </ul>
                 </div>

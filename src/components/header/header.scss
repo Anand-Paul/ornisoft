@@ -20,6 +20,11 @@
       }
     }
   }
+  &__contact {
+    a:hover {
+      color: #f49422;
+    }
+  }
   &__search {
     min-height: 48px;
     input {

@@ -15,7 +15,7 @@ const Header = (props) => {
         <Link to="/">
           <img src={logo} alt="ornisoft logo" className="header__logo" />
         </Link>
-        <div className="header__contactWrapper d-none d-xl-flex align-items-center flex-grow-1 flex-shrink-0 justify-content-end px-4 border-end">
+        <div className="header__contact d-none d-xl-flex align-items-center flex-grow-1 flex-shrink-0 justify-content-end px-4 border-end">
           <div className="header__email d-flex align-items-center pe-4 border-end">
             <div className="header__icon me-3">
               <span className="icon-ic-mail fs-4"></span>
@@ -37,10 +37,10 @@ const Header = (props) => {
             <div className="phoneContactWrapper">
               <div className="header__title fs-6 fw-bold">Contact</div>
               <a
-                href="tel:+9188998877655"
+                href="tel:+917306684432"
                 className="header__link text-decoration-none"
               >
-                +91 8899887765
+                +917306684432
               </a>
             </div>
           </div>
