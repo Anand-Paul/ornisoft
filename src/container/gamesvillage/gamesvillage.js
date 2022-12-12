@@ -21,7 +21,7 @@ const GamesVillage = () => {
             />
           </figure>
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
-          <h3 className="product-detail__title">GamesVillage Pro Suite</h3>
+          <h3 className="product-detail__title">Games Village Pro Suite</h3>
           <div className="product-detail__desc">
             <p>
               GamesVillage Pro Suite is a complete tournament management
