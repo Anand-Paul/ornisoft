@@ -57,7 +57,9 @@ const Products = () => {
                 className="products__card-image"
               />
               <div className="products__card-content">
-                <h6 className="products__card-title">GamesVillage Pro Suite</h6>
+                <h6 className="products__card-title">
+                  Games Village Pro Suite
+                </h6>
                 <p className="products__card-description">
                   GamesVillage Pro Suite is a complete tournament management
                   software which is available on both Android and IOS platforms.

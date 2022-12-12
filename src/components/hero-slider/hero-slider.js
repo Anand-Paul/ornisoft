@@ -51,7 +51,7 @@ const HeroSlider = () => {
                 <div className="row">
                   <div className="hero-slider__dialog ">
                     <h2 className="hero-slider__title">
-                      GamesVillage Pro Suite
+                      Games Village Pro Suite
                     </h2>
                     <p className="hero-slider__description">
                       GamesVillage Pro is a complete tournament manager app (IOS
