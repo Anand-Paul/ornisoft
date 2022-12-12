@@ -78,7 +78,7 @@ const Footer = () => {
                 <div className="footer__menu no-padding">
                   <h4 className="footer__widget-title">GET IN TOUCH</h4>
                   <ul className="footer__widget-list">
-                    <li className="footer__widget-items">
+                    <li className="footer__widget-items footer__widget-items_border mb-3">
                       <span className="icon  icon-Vector-7 pe-3"></span>
                       <a href="mailto:Info@ornisoft.com">Info@ornisoft.com</a>
                     </li>
@@ -117,7 +117,7 @@ const Footer = () => {
             <div className="col-md-12">
               <div className="footer__copyright">
                 <p className="footer__copyright-text">
-                  Ornisoft. All Rights Reserved
+                  OrniSoft. All Rights Reserved
                 </p>
               </div>
             </div>
