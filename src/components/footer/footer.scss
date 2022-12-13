@@ -19,12 +19,7 @@
 
     &-social {
       height: 100%;
-      border-right: 1px solid #dfdfdf;
-      // margin-right: 152px;
       text-align: center;
-      @media (max-width: 992px) {
-        border-right: none;
-      }
     }
 
     &-list {
@@ -33,8 +28,6 @@
     }
 
     &-items {
-      text-indent: -2rem;
-      padding-left: 2rem;
       list-style: none;
       font-family: "Poppins";
       font-style: normal;
@@ -95,10 +88,7 @@
       font-size: 14px;
       line-height: 21px;
       opacity: 0.5;
-      /* identical to box height */
-
       letter-spacing: 0.04em;
-
       color: #ffffff;
     }
   }
@@ -119,5 +109,27 @@
   a {
     color: #ffffff;
     text-decoration: none;
+  }
+  @media screen and (max-width: 768px) {
+    &__main {
+      padding: 30px 0 0 0;
+    }
+    &__logo {
+      margin: 0;
+      margin-bottom: 10px;
+      width: 140px;
+    }
+    &__widget {
+      &-title {
+        margin-bottom: 16px;
+      }
+      &-social {
+        text-align: left;
+      }
+      &-items {
+        letter-spacing: 1px;
+        padding-bottom: 8px;
+      }
+    }
   }
 }

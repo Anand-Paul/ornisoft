@@ -1,61 +1,16 @@
 import React from "react";
-import { Formik, Form } from "formik";
-import * as Yup from "yup";
-import Swal from "sweetalert2";
 
 import { ANIM_DELAY } from "../../constants";
 
 import frameLeft from "../../images/contact-right.png";
 import frameRight from "../../images/contact-left.png";
+import whatsapp from "../../images/whatsapp.png";
+import mail from "../../images/mail.png";
+import mobile from "../../images/mobile.png";
 
 import "./contact.scss";
 
 const ContactForm = () => {
-  const initialFormValues = {
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  };
-
-  const userValidationSchema = Yup.object().shape({
-    name: Yup.string()
-      .required("Name is required")
-      .matches(/^[aA-zZ\s]+$/, "Only alphabets are allowed for this field")
-      .min(2, "Atleast 2 alphabets required"),
-    email: Yup.string().email("Invalid email").required("Email is required"),
-    subject: Yup.string()
-      .required("Subject is required")
-      .min(2, "Atleast 2 alphabets required"),
-    message: Yup.string()
-      .required("Message is required")
-      .min(2, "Atleast 2 alphabets required"),
-  });
-
-  const handleFormSubmit = (values, actions) => {
-    // fetch("http://mail5013.site4now.net/api/v1/mail/message-put", {
-    //   method: "POST",
-    //   body: JSON.stringify({
-    //     from: values.email,
-    //     subject: values.subject,
-    //     to: "Info@ornisoft.com",
-    //     messagePlainText: values.message,
-    //   }),
-    // })
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     console.log(data);
-    //   });
-    Swal.fire({
-      title: "Thank you for getting in touch!",
-      text: "We appreciate you contacting us. We will get back to you soon.",
-      icon: "success",
-      confirmButtonText: "OK",
-    }).then((result) => {
-      actions.resetForm({ values: initialFormValues });
-    });
-  };
-
   return (
     <div
       className="contact"
@@ -76,110 +31,83 @@ const ContactForm = () => {
           alt="Left asset"
         />
         <h2 className="contact__title text-center mb-1 mb-md-4">Contact Us</h2>
-        <Formik
-          enableReinitialize
-          initialValues={initialFormValues}
-          onSubmit={(values, actions) => {
-            handleFormSubmit(values, actions);
-          }}
-          validationSchema={userValidationSchema}
-        >
-          {({ values, handleChange, handleBlur, errors, touched }) => (
-            <Form className="contact__form m-auto">
-              <div className="mb-3 mb-lg-4">
-                <label
-                  className="form-label contact__label mb-1"
-                  htmlFor="name"
+
+        <div className="row">
+          <div className="col-12">
+            <div className="contact__main">
+              <div className="contact__main-item">
+                <img src={mobile} alt="whatsapp" />
+                <a
+                  href="tel:+917306684432"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Name
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  value={values.name}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  placeholder="Name"
-                />
-                {touched.name && errors.name && (
-                  <div className="form-text text-danger">{errors.name}</div>
-                )}
+                  +917306684432
+                </a>
               </div>
-              <div className="mb-3 mb-lg-4">
-                <label
-                  className="form-label contact__label mb-1"
-                  htmlFor="email"
+              <div className="contact__main-item">
+                <img src={whatsapp} alt="whatsapp" />
+                <a
+                  href="https://api.whatsapp.com/send?phone=+917306684432&text=Hello!"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  value={values.email}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  placeholder="Email"
-                />
-                {touched.email && errors.email && (
-                  <div className="form-text text-danger">{errors.email}</div>
-                )}
+                  +917306684432
+                </a>
               </div>
-              <div className="mb-3 mb-lg-4">
-                <label
-                  className="form-label contact__label mb-1"
-                  htmlFor="subject"
+              <div className="contact__main-item">
+                <img src={mail} alt="whatsapp" />
+                <a
+                  href="mailto:Info@ornisoft.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="subject"
-                  name="subject"
-                  value={values.subject}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  placeholder="Subject"
-                />
-                {touched.subject && errors.subject && (
-                  <div className="form-text text-danger">{errors.subject}</div>
-                )}
+                  Info@ornisoft.com
+                </a>
               </div>
-              <div className="mb-3 mb-lg-4">
-                <label
-                  className="form-label contact__label mb-1"
-                  htmlFor="message"
-                >
-                  Comments
-                </label>
-                <textarea
-                  type="text"
-                  className="form-control"
-                  id="message"
-                  rows={5}
-                  value={values.message}
-                  name="message"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  placeholder="Message"
-                />
-                {touched.message && errors.message && (
-                  <div className="form-text text-danger">{errors.message}</div>
-                )}
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12 col-md-4">
+            <div className="contact__card">
+              <span className="icon-location-1-2 pe-3 contact__card-icon"></span>
+              <div className="contact__card-address">
+                OrniSoft <br />
+                AMRA 60, Automobile Road Palarivattom, Kochi, Kerala, <br />
+                India 682025
+                <span className="contact__card-phone">
+                  <a href="tel:+917306684432">+917306684432</a>
+                </span>
               </div>
-              <button
-                type="submit"
-                className="d-block btn btn-primary contact__submit fs-6 border-0 rounded-0 m-auto"
-              >
-                Submit
-              </button>
-            </Form>
-          )}
-        </Formik>
+            </div>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="contact__card">
+              <span className="icon-location-1-2 pe-3 contact__card-icon"></span>
+              <div className="contact__card-address">
+                OrniSoft <br />P O Box No 115344, <br />
+                Dubai, UAE
+                <span className="contact__card-phone">
+                  <a href="tel:+971563462929">+971 56 3462929</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-4">
+            <div className="contact__card">
+              <span className="icon-location-1-2 pe-3 contact__card-icon"></span>
+              <div className="contact__card-address">
+                OrniSoft <br />
+                P.O.Box : 320, Postal Code 271,
+                <br /> Muscat, Oman
+                <span className="contact__card-phone">
+                  <a href="tel:+96893774669">+96893774669</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

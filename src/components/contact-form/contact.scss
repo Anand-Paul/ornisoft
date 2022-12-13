@@ -1,5 +1,5 @@
 .contact {
-  padding: 100px 0 80px 0;
+  padding: 100px 0;
   position: relative;
   &__title {
     font-size: 36px;
@@ -48,18 +48,101 @@
     }
   }
 
+  &__card {
+    display: flex;
+    flex-direction: row;
+    &-icon {
+      font-size: 80px;
+    }
+    &-address {
+      line-height: 28px;
+    }
+    &-phone {
+      display: block;
+
+      a {
+        text-decoration: none;
+        color: #333333;
+        &:hover {
+          color: #f49422;
+        }
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 44px;
+    flex-wrap: wrap;
+    &-item {
+      display: flex;
+      margin-bottom: 16px;
+      padding-right: 16px;
+    }
+    &-title {
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      color: #333333;
+      margin-bottom: 8px;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    a {
+      margin-left: 14px;
+      margin-top: 5px;
+      text-decoration: none;
+      color: #333333;
+      font-size: 28px;
+      &:hover {
+        color: #f49422;
+      }
+    }
+  }
+
   @media screen and (max-width: 992px) {
     padding: 15px 0 40px;
     &__shapes {
       width: auto;
       &_left {
         bottom: 0;
+        height: 60%;
+      }
+
+      &_right {
+        height: 100%;
       }
     }
   }
   @media screen and (max-width: 768px) {
     &__shapes {
-      width: 50%;
+      display: none;
+    }
+    &__main {
+      justify-content: center;
+      &-title {
+        font-size: 18px;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      a {
+        font-size: 22px;
+      }
+    }
+
+    &__card {
+      margin-bottom: 24px;
+      &-icon {
+        font-size: 48px;
+      }
     }
   }
 }

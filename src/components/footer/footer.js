@@ -46,34 +46,42 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-8 col-sm-12">
               <div className="footer__widget">
                 <div className="footer__menu footer__menu--1">
                   <h4 className="footer__widget-title">OUR PRODUCTS</h4>
                   <ul className="footer__widget-list">
-                    <li className="footer__widget-items">
-                      <Link to="/libman">Libman Suite</Link>
-                    </li>
-                    <li className="footer__widget-items">
-                      <Link to="/gamesvillage">GamesVillage Pro Suite</Link>
-                    </li>
-                    <li className="footer__widget-items">
-                      <Link to="/zcoder">ZCODER</Link>
-                    </li>
-                    <li className="footer__widget-items">
-                      <Link to="/vansales">VanSales Pro</Link>
-                    </li>
-                    <li className="footer__widget-items">
-                      <Link to="/restomanage">RestoManage</Link>
-                    </li>
-                    <li className="footer__widget-items">
-                      <Link to="/isales">iSales</Link>
-                    </li>
+                    <div className="row">
+                      <div className="col-12 col-md-4">
+                        <li className="footer__widget-items">
+                          <Link to="/libman">Libman Suite</Link>
+                        </li>
+                        <li className="footer__widget-items">
+                          <Link to="/gamesvillage">GamesVillage Pro Suite</Link>
+                        </li>
+                      </div>
+                      <div className="col-12 col-md-4">
+                        <li className="footer__widget-items">
+                          <Link to="/zcoder">ZCODER</Link>
+                        </li>
+                        <li className="footer__widget-items">
+                          <Link to="/vansales">VanSales Pro</Link>
+                        </li>
+                      </div>
+                      <div className="col-12 col-md-4">
+                        <li className="footer__widget-items">
+                          <Link to="/restomanage">RestoManage</Link>
+                        </li>
+                        <li className="footer__widget-items">
+                          <Link to="/isales">iSales</Link>
+                        </li>
+                      </div>
+                    </div>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-sm-6">
+            {/* <div className="col-md-4 col-sm-6">
               <div className="footer__widget">
                 <div className="footer__menu no-padding">
                   <h4 className="footer__widget-title">GET IN TOUCH</h4>
@@ -107,7 +115,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
