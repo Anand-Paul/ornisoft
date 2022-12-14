@@ -1,8 +1,13 @@
 import React from "react";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 
 import { ANIM_DELAY } from "../../constants";
+import libman from "../../images/libman.jpg";
+import gamesvillage from "../../images/games-village.jpg";
+import zcoder from "../../images/zcoder.jpg";
+import vansales from "../../images/vansales.jpg";
+import restomanage from "../../images/restomanage.jpg";
+import isales from "../../images/isales.jpg";
 
 import "./products.scss";
 
@@ -22,11 +27,7 @@ const Products = () => {
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
             >
-              <StaticImage
-                src="../../images/libman.jpg"
-                alt="banner"
-                className="products__card-image"
-              />
+              <img src={libman} alt="banner" className="products__card-image" />
               <div className="products__card-content">
                 <h6 className="products__card-title">LibMan Suite</h6>
                 <p className="products__card-description">
@@ -51,8 +52,8 @@ const Products = () => {
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
             >
-              <StaticImage
-                src="../../images/games-village.jpg"
+              <img
+                src={gamesvillage}
                 alt="banner"
                 className="products__card-image"
               />
@@ -80,11 +81,7 @@ const Products = () => {
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
             >
-              <StaticImage
-                src="../../images/zcoder.jpg"
-                alt="banner"
-                className="products__card-image"
-              />
+              <img src={zcoder} alt="banner" className="products__card-image" />
               <div className="products__card-content">
                 <h6 className="products__card-title">ZCoder</h6>
                 <p className="products__card-description">
@@ -113,8 +110,8 @@ const Products = () => {
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
             >
-              <StaticImage
-                src="../../images/vansales.jpg"
+              <img
+                src={vansales}
                 alt="banner"
                 className="products__card-image"
               />
@@ -147,8 +144,8 @@ const Products = () => {
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
             >
-              <StaticImage
-                src="../../images/restomanage.jpg"
+              <img
+                src={restomanage}
                 alt="banner"
                 className="products__card-image"
               />
@@ -180,11 +177,7 @@ const Products = () => {
               data-sal-delay={ANIM_DELAY}
               data-sal-easing="ease-in-out"
             >
-              <StaticImage
-                src="../../images/isales.jpg"
-                alt="banner"
-                className="products__card-image"
-              />
+              <img src={isales} alt="banner" className="products__card-image" />
               <div className="products__card-content">
                 <h6 className="products__card-title">iSales</h6>
                 <p className="products__card-description">

@@ -1,8 +1,11 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import Slider from "react-slick";
 
 import { SLIDER_DELAY } from "../../constants";
+import libman from "../../images/libman.jpg";
+import games from "../../images/games-village.jpg";
+import zcoder from "../../images/zcoder.jpg";
+import vansales from "../../images/vansales.jpg";
 
 import "./hero-slider.scss";
 
@@ -38,11 +41,7 @@ const HeroSlider = () => {
                   </div>
                 </div>
               </div>
-              <StaticImage
-                src="../../images/libman.jpg"
-                alt="banner"
-                className="hero-slider__image"
-              />
+              <img src={libman} alt="banner" className="hero-slider__image" />
             </div>
           </div>
           <div className="hero-slider__slide ">
@@ -62,11 +61,7 @@ const HeroSlider = () => {
                   </div>
                 </div>
               </div>
-              <StaticImage
-                src="../../images/games-village.jpg"
-                alt="banner"
-                className="hero-slider__image"
-              />
+              <img src={games} alt="banner" className="hero-slider__image" />
             </div>
           </div>
           <div className="hero-slider__slide ">
@@ -84,11 +79,7 @@ const HeroSlider = () => {
                   </div>
                 </div>
               </div>
-              <StaticImage
-                src="../../images/zcoder.jpg"
-                alt="banner"
-                className="hero-slider__image"
-              />
+              <img src={zcoder} alt="banner" className="hero-slider__image" />
             </div>
           </div>
           <div className="hero-slider__slide ">
@@ -107,11 +98,7 @@ const HeroSlider = () => {
                   </div>
                 </div>
               </div>
-              <StaticImage
-                src="../../images/vansales.jpg"
-                alt="banner"
-                className="hero-slider__image"
-              />
+              <img src={vansales} alt="banner" className="hero-slider__image" />
             </div>
           </div>
         </Slider>
