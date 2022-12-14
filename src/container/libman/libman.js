@@ -23,9 +23,7 @@ const Libman = () => {
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
           <h4>LibMan</h4>
           <div className="product-detail__desc">
-            <h5>
-              <strong>What is LibMan Suite?</strong>
-            </h5>
+            <h5>What is LibMan Suite?</h5>
             <p>
               Knowing there are so many applications available in the market
               today for Library Management, LibMan is completely unique in
@@ -69,7 +67,7 @@ const Libman = () => {
               <li>LibMan-Librarian</li>
               <li>LibMan-CMS</li>
             </ul>
-            <h4>LibMan</h4>
+            <h5>LibMan</h5>
             <p>
               LibMan is the OPAC and search interface for the subscribers of the
               library that works on Android and iPhone mobiles. It automatically
@@ -102,7 +100,7 @@ const Libman = () => {
               <li>Highlighted Books</li>
               <li>History</li>
             </ul>
-            <h4>LibMan-Librarian</h4>
+            <h5>LibMan-Librarian</h5>
             <p>
               LM-Librarian is also a mobile app but for librarians to process
               issues, returns, etc. Its activities include:
@@ -138,7 +136,7 @@ const Libman = () => {
               Features of the LM-Librarian are interconnected with LibMan-CMS,
               the third module of the App.
             </p>
-            <h4>LibMan-CMS</h4>
+            <h5>LibMan-CMS</h5>
             <p>
               LibMan-CMS is a web-based content management system for desktops
               to build up a library Catalogue and member database. One can

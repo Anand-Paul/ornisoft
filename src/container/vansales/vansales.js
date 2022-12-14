@@ -21,7 +21,7 @@ const VanSales = () => {
             />
           </figure>
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
-          <h3 className="product-detail__title">VanSales Pro</h3>
+          <h4 className="product-detail__title">VanSales Pro</h4>
           <div className="product-detail__desc">
             <p>
               VanSales Pro is a mobile based solution which can streamline sales
@@ -38,40 +38,40 @@ const VanSales = () => {
               fuel charges, maintenance charges, driver salary etc. The unique
               features of VanSales Pro are as follows.
             </p>
-            <h4>Stock inventory</h4>
+            <h5>Stock inventory</h5>
             <p>
               The inventory of the stocks is managed effortlessly by keeping
               real-time tracking of each van and warehouse inventory.
             </p>
-            <h4>Loading and Unloading</h4>
+            <h5>Loading and Unloading</h5>
             <p>
               Efficient handling of Loading and Unloading requests,
               confirmation/approval, creation and management of picklists,
               inventory transfers etc.
             </p>
-            <h4>Van Stock management</h4>
+            <h5>Van Stock management</h5>
             <p>
               After each transaction, the inventory stock data is updated
               automatically. It helps to reduce the chance for mismatched
               inventories or out of stock goods.
             </p>
-            <h4>Stock-based delivery</h4>
+            <h5>Stock-based delivery</h5>
             <p>
               Stock-based deliveries can be facilitated through the application.
               Electronic proof of delivery (ePOD) is collected and remote
               invoicing can be done.
             </p>
-            <h4>Order management</h4>
+            <h5>Order management</h5>
             <p>
               Hassle-free order management to give better service to the
               customers.
             </p>
-            <h4>Invoicing</h4>
+            <h5>Invoicing</h5>
             <p>
               On-the-spot billing and invoicing is done for each sale directly
               from the van itself.
             </p>
-            <h4>Tracking</h4>
+            <h5>Tracking</h5>
             <p>
               Track the live location of the vans using geo-tracking. The
               drivers can also prioritize the customers based on the customer

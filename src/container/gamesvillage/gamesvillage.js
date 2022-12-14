@@ -21,14 +21,14 @@ const GamesVillage = () => {
             />
           </figure>
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
-          <h3 className="product-detail__title">Games Village Pro Suite</h3>
+          <h4 className="product-detail__title">Games Village Pro Suite</h4>
           <div className="product-detail__desc">
             <p>
               GamesVillage Pro Suite is a complete tournament management
               software which is available on both Android and IOS platforms. The
               GamesVillage Pro Suite comes with six applications.
             </p>
-            <h4>GamesVillage Pro</h4>
+            <h5>GamesVillage Pro</h5>
             <p>
               GamesVillage Pro is an android/IOS based app which can power up
               smartphones to achieve quick insights into games, accommodation,
@@ -50,20 +50,20 @@ const GamesVillage = () => {
               allowed to create posts. However, they can view, like or share the
               posts available in the timeline.
             </p>
-            <h4>MatchController Pro</h4>
+            <h5>MatchController Pro</h5>
             <p>
               MatchController Pro is a points entry and management app primarily
               aimed for tournament game officials including match referees. The
               umpires can use the app which is available in a tab (android
               platform) to control game points. There will be options to.
             </p>
-            <h4>GamesVillage CMS</h4>
+            <h5>GamesVillage CMS</h5>
             <p>
               This is a web-based content management system to manage things
               like referee prerequisites, gallery management, ads management,
               sponsorship management, broadcast notifications etc.
             </p>
-            <h4>MealsManager Pro</h4>
+            <h5>MealsManager Pro</h5>
             <p>
               MealsManager Pro is a utility app for hotels/food management teams
               to manage the food distribution to the participants of the
@@ -73,13 +73,13 @@ const GamesVillage = () => {
               Statistical views are also displayed in the dashboard for quick
               reference.
             </p>
-            <h4>AccoManager Pro</h4>
+            <h5>AccoManager Pro</h5>
             <p>
               AccoManager Pro is the app for management of accommodation of the
               participants of the tournament. The hotels can make use of the app
               to allocate rooms, set check-in/check-out times etc.
             </p>
-            <h4>DTransportation Pro</h4>
+            <h5>DTransportation Pro</h5>
             <p>
               Transportation Pro is the app which is used to manage the
               transportation facilities at the venue of the tournament. Pickup,

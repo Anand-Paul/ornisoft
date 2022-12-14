@@ -21,7 +21,7 @@ const RestoManage = () => {
             />
           </figure>
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
-          <h3 className="product-detail__title">RestoManage</h3>
+          <h4 className="product-detail__title">RestoManage</h4>
           <div className="product-detail__desc">
             <p>
               RestoManage is a cloud-based online food ordering and delivery
@@ -34,29 +34,29 @@ const RestoManage = () => {
               and accept/reject order requests as per food availability.
             </p>
             <p>Some features of the RestoManage include,</p>
-            <h4>Digital menu system</h4>
+            <h5>Digital menu system</h5>
             <p>
               A digital menu with customizable images, price, quantity etc. The
               users can add items in the menu to the cart before making a final
               purchase
             </p>
-            <h4>Geo-fencing-based order management</h4>
+            <h5>Geo-fencing-based order management</h5>
             <p>
               The delivery is supported for those orders which are within a
               certain geographical radius of the restaurant. This limit can be
               set by the restaurant.
             </p>
-            <h4>Customizable banners</h4>
+            <h5>Customizable banners</h5>
             <p>
               The restaurant can add custom banners to display offers,
               information about special dishes etc.
             </p>
-            <h4>Discount management </h4>
+            <h5>Discount management </h5>
             <p>
               The option to calculate and apply discounts before the final bill
               is available in the app.
             </p>
-            <h4>Real-time order tracking</h4>
+            <h5>Real-time order tracking</h5>
             <p>
               Live tracking of orders is implemented in the app. Data is
               synchronized along multiple devices while doing this.

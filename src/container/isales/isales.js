@@ -21,7 +21,7 @@ const ISales = () => {
             />
           </figure>
           <h2 className="product-detail__overtitle mb-0">PRODUCTS</h2>
-          <h3 className="product-detail__title">iSales</h3>
+          <h4 className="product-detail__title">iSales</h4>
           <div className="product-detail__desc">
             <p>
               iSales is an application for sales and delivery of goods via an
@@ -33,25 +33,24 @@ const ISales = () => {
               notifications/banners etc. The features of the iSales app are as
               below.
             </p>
-
-            <h4>Digital menu system</h4>
+            <h5>Digital menu system</h5>
             <p>A digital menu with customizable images, price, quantity etc.</p>
-            <h4>Cart feature</h4>
+            <h5>Cart feature</h5>
             <p>
               The users can add items in the menu to the cart before making a
               final purchase.
             </p>
-            <h4>Custom banners</h4>
+            <h5>Custom banners</h5>
             <p>
               The user can see tailor-made banners to display offers,
               information about special products etc.
             </p>
-            <h4>Discount management </h4>
+            <h5>Discount management </h5>
             <p>
               The option to calculate and apply discounts before the final bill
               is available in the app.
             </p>
-            <h4>E-payment</h4>
+            <h5>E-payment</h5>
             <p>
               Integrated payment gateway helps the user to pay using e-payment
               methods which makes the payment process hassle-free.
