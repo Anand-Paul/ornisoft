@@ -178,7 +178,7 @@ const Libman = () => {
             </p>
             <h5>
               <strong>
-                Send us a message on WhatsApp to +91-73566-25110 with the
+                Send us a message on WhatsApp to +917306684432 with the
                 following details.
               </strong>
             </h5>

@@ -30,7 +30,7 @@ const ContactForm = () => {
           src={frameLeft}
           alt="Left asset"
         />
-        <h2 className="contact__title text-center mb-1 mb-md-4">Contact Us</h2>
+        <h2 className="contact__title mb-1 mb-md-4">Contact Us</h2>
 
         <div className="row">
           <div className="col-12">
@@ -45,7 +45,7 @@ const ContactForm = () => {
                   +917306684432
                 </a>
               </div>
-              <div className="contact__main-item">
+              <div className="contact__main-item contact__main-item_size">
                 <img src={whatsapp} alt="whatsapp" />
                 <a
                   href="https://api.whatsapp.com/send?phone=+917306684432&text=Hello!"
